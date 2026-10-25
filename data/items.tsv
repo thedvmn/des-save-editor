@@ -1,0 +1,2085 @@
+# Demon's Souls item table, exported from
+# https://github.com/jij3x/DemonSave-PS3 (js/des-db, commit 42158c4), MIT licensed: see data/LICENSE-des-db.
+# Columns: category, id, name, group, max durability, hidden (experimental / unused)
+weapons	0x2710	Dagger	Dagger	200	0
+weapons	0x2711	Dagger+1	Dagger	200	0
+weapons	0x2712	Dagger+2	Dagger	200	0
+weapons	0x2713	Dagger+3	Dagger	200	0
+weapons	0x2714	Dagger+4	Dagger	200	0
+weapons	0x2715	Dagger+5	Dagger	200	0
+weapons	0x2716	Dagger+6	Dagger	200	0
+weapons	0x2717	Dagger+7	Dagger	200	0
+weapons	0x2718	Dagger+8	Dagger	200	0
+weapons	0x2719	Dagger+9	Dagger	200	0
+weapons	0x271A	Dagger+10	Dagger	200	0
+weapons	0x271B	Quality Dagger+1	Dagger	200	0
+weapons	0x271C	Quality Dagger+2	Dagger	200	0
+weapons	0x271D	Quality Dagger+3	Dagger	200	0
+weapons	0x271E	Quality Dagger+4	Dagger	200	0
+weapons	0x271F	Quality Dagger+5	Dagger	200	0
+weapons	0x2725	Mercury Dagger+1	Dagger	200	0
+weapons	0x2726	Mercury Dagger+2	Dagger	200	0
+weapons	0x2727	Mercury Dagger+3	Dagger	200	0
+weapons	0x2728	Mercury Dagger+4	Dagger	200	0
+weapons	0x2729	Mercury Dagger+5	Dagger	200	0
+weapons	0x272F	Sharp Dagger+1	Dagger	200	0
+weapons	0x2730	Sharp Dagger+2	Dagger	200	0
+weapons	0x2731	Sharp Dagger+3	Dagger	200	0
+weapons	0x2732	Sharp Dagger+4	Dagger	200	0
+weapons	0x2733	Sharp Dagger+5	Dagger	200	0
+weapons	0x2739	Fatal Dagger+1	Dagger	200	0
+weapons	0x273A	Fatal Dagger+2	Dagger	200	0
+weapons	0x273B	Fatal Dagger+3	Dagger	200	0
+weapons	0x273C	Fatal Dagger+4	Dagger	200	0
+weapons	0x273D	Fatal Dagger+5	Dagger	200	0
+weapons	0x2743	Crescent Dagger+1	Dagger	200	0
+weapons	0x2744	Crescent Dagger+2	Dagger	200	0
+weapons	0x2745	Crescent Dagger+3	Dagger	200	0
+weapons	0x2746	Crescent Dagger+4	Dagger	200	0
+weapons	0x2747	Crescent Dagger+5	Dagger	200	0
+weapons	0x2774	Parrying Dagger	Dagger	200	0
+weapons	0x2775	Parrying Dagger+1	Dagger	200	0
+weapons	0x2776	Parrying Dagger+2	Dagger	200	0
+weapons	0x2777	Parrying Dagger+3	Dagger	200	0
+weapons	0x2778	Parrying Dagger+4	Dagger	200	0
+weapons	0x2779	Parrying Dagger+5	Dagger	200	0
+weapons	0x277A	Parrying Dagger+6	Dagger	200	0
+weapons	0x277B	Parrying Dagger+7	Dagger	200	0
+weapons	0x277C	Parrying Dagger+8	Dagger	200	0
+weapons	0x277D	Parrying Dagger+9	Dagger	200	0
+weapons	0x277E	Parrying Dagger+10	Dagger	200	0
+weapons	0x277F	Quality Parrying Dagger+1	Dagger	200	0
+weapons	0x2780	Quality Parrying Dagger+2	Dagger	200	0
+weapons	0x2781	Quality Parrying Dagger+3	Dagger	200	0
+weapons	0x2782	Quality Parrying Dagger+4	Dagger	200	0
+weapons	0x2783	Quality Parrying Dagger+5	Dagger	200	0
+weapons	0x2789	Mercury Parrying Dagger+1	Dagger	200	0
+weapons	0x278A	Mercury Parrying Dagger+2	Dagger	200	0
+weapons	0x278B	Mercury Parrying Dagger+3	Dagger	200	0
+weapons	0x278C	Mercury Parrying Dagger+4	Dagger	200	0
+weapons	0x278D	Mercury Parrying Dagger+5	Dagger	200	0
+weapons	0x2793	Fatal Parrying Dagger+1	Dagger	200	0
+weapons	0x2794	Fatal Parrying Dagger+2	Dagger	200	0
+weapons	0x2795	Fatal Parrying Dagger+3	Dagger	200	0
+weapons	0x2796	Fatal Parrying Dagger+4	Dagger	200	0
+weapons	0x2797	Fatal Parrying Dagger+5	Dagger	200	0
+weapons	0x279D	Sharp Parrying Dagger+1	Dagger	200	0
+weapons	0x279E	Sharp Parrying Dagger+2	Dagger	200	0
+weapons	0x279F	Sharp Parrying Dagger+3	Dagger	200	0
+weapons	0x27A0	Sharp Parrying Dagger+4	Dagger	200	0
+weapons	0x27A1	Sharp Parrying Dagger+5	Dagger	200	0
+weapons	0x27A7	Crescent Parrying Dagger+1	Dagger	200	0
+weapons	0x27A8	Crescent Parrying Dagger+2	Dagger	200	0
+weapons	0x27A9	Crescent Parrying Dagger+3	Dagger	200	0
+weapons	0x27AA	Crescent Parrying Dagger+4	Dagger	200	0
+weapons	0x27AB	Crescent Parrying Dagger+5	Dagger	200	0
+weapons	0x27D8	Mail Breaker	Dagger	200	0
+weapons	0x27D9	Mail Breaker+1	Dagger	200	0
+weapons	0x27DA	Mail Breaker+2	Dagger	200	0
+weapons	0x27DB	Mail Breaker+3	Dagger	200	0
+weapons	0x27DC	Mail Breaker+4	Dagger	200	0
+weapons	0x27DD	Mail Breaker+5	Dagger	200	0
+weapons	0x27DE	Mail Breaker+6	Dagger	200	0
+weapons	0x27DF	Mail Breaker+7	Dagger	200	0
+weapons	0x27E0	Mail Breaker+8	Dagger	200	0
+weapons	0x27E1	Mail Breaker+9	Dagger	200	0
+weapons	0x27E2	Mail Breaker+10	Dagger	200	0
+weapons	0x27E3	Quality Mail Breaker+1	Dagger	200	0
+weapons	0x27E4	Quality Mail Breaker+2	Dagger	200	0
+weapons	0x27E5	Quality Mail Breaker+3	Dagger	200	0
+weapons	0x27E6	Quality Mail Breaker+4	Dagger	200	0
+weapons	0x27E7	Quality Mail Breaker+5	Dagger	200	0
+weapons	0x27ED	Mercury Mail Breaker+1	Dagger	200	0
+weapons	0x27EE	Mercury Mail Breaker+2	Dagger	200	0
+weapons	0x27EF	Mercury Mail Breaker+3	Dagger	200	0
+weapons	0x27F0	Mercury Mail Breaker+4	Dagger	200	0
+weapons	0x27F1	Mercury Mail Breaker+5	Dagger	200	0
+weapons	0x27F7	Fatal Mail Breaker+1	Dagger	200	0
+weapons	0x27F8	Fatal Mail Breaker+2	Dagger	200	0
+weapons	0x27F9	Fatal Mail Breaker+3	Dagger	200	0
+weapons	0x27FA	Fatal Mail Breaker+4	Dagger	200	0
+weapons	0x27FB	Fatal Mail Breaker+5	Dagger	200	0
+weapons	0x2801	Sharp Mail Breaker+1	Dagger	200	0
+weapons	0x2802	Sharp Mail Breaker+2	Dagger	200	0
+weapons	0x2803	Sharp Mail Breaker+3	Dagger	200	0
+weapons	0x2804	Sharp Mail Breaker+4	Dagger	200	0
+weapons	0x2805	Sharp Mail Breaker+5	Dagger	200	0
+weapons	0x280B	Crescent Mail Breaker+1	Dagger	200	0
+weapons	0x280C	Crescent Mail Breaker+2	Dagger	200	0
+weapons	0x280D	Crescent Mail Breaker+3	Dagger	200	0
+weapons	0x280E	Crescent Mail Breaker+4	Dagger	200	0
+weapons	0x280F	Crescent Mail Breaker+5	Dagger	200	0
+weapons	0x28A0	Baby's Nail	Dagger	100	0
+weapons	0x28A1	Baby's Nail+1	Dagger	100	0
+weapons	0x28A2	Baby's Nail+2	Dagger	100	0
+weapons	0x28A3	Baby's Nail+3	Dagger	100	0
+weapons	0x28A4	Baby's Nail+4	Dagger	100	0
+weapons	0x28A5	Baby's Nail+5	Dagger	100	0
+weapons	0x2904	Geri's Stiletto	Dagger	200	0
+weapons	0x2905	Geri's Stiletto+1	Dagger	200	0
+weapons	0x2906	Geri's Stiletto+2	Dagger	200	0
+weapons	0x2907	Geri's Stiletto+3	Dagger	200	0
+weapons	0x2908	Geri's Stiletto+4	Dagger	200	0
+weapons	0x2909	Geri's Stiletto+5	Dagger	200	0
+weapons	0x2968	Kris Blade	Straight Sword	120	0
+weapons	0x2969	Kris Blade+1	Straight Sword	120	0
+weapons	0x296A	Kris Blade+2	Straight Sword	120	0
+weapons	0x296B	Kris Blade+3	Straight Sword	120	0
+weapons	0x296C	Kris Blade+4	Straight Sword	120	0
+weapons	0x296D	Kris Blade+5	Straight Sword	120	0
+weapons	0x29CC	Secret Dagger	Dagger	100	0
+weapons	0x29CD	Secret Dagger+1	Dagger	100	0
+weapons	0x29CE	Secret Dagger+2	Dagger	100	0
+weapons	0x29CF	Secret Dagger+3	Dagger	100	0
+weapons	0x29D0	Secret Dagger+4	Dagger	100	0
+weapons	0x29D1	Secret Dagger+5	Dagger	100	0
+weapons	0x29D2	Secret Dagger+6	Dagger	100	0
+weapons	0x29D3	Secret Dagger+7	Dagger	100	0
+weapons	0x29D4	Secret Dagger+8	Dagger	100	0
+weapons	0x29D5	Secret Dagger+9	Dagger	100	0
+weapons	0x29D6	Secret Dagger+10	Dagger	100	0
+weapons	0x29D7	Sharp Secret Dagger+1	Dagger	100	0
+weapons	0x29D8	Sharp Secret Dagger+2	Dagger	100	0
+weapons	0x29D9	Sharp Secret Dagger+3	Dagger	100	0
+weapons	0x29DA	Sharp Secret Dagger+4	Dagger	100	0
+weapons	0x29DB	Sharp Secret Dagger+5	Dagger	100	0
+weapons	0x29E1	Tearing Dagger+1	Experimental		1
+weapons	0x29E2	Tearing Dagger+2	Experimental		1
+weapons	0x29E3	Tearing Dagger+3	Experimental		1
+weapons	0x29EB	Crescent Secret Dagger+1	Dagger	100	0
+weapons	0x29EC	Crescent Secret Dagger+2	Dagger	100	0
+weapons	0x29ED	Crescent Secret Dagger+3	Dagger	100	0
+weapons	0x29EE	Crescent Secret Dagger+4	Dagger	100	0
+weapons	0x29EF	Crescent Secret Dagger+5	Dagger	100	0
+weapons	0x29F5	Quality Secret Dagger+1	Dagger	100	0
+weapons	0x29F6	Quality Secret Dagger+2	Dagger	100	0
+weapons	0x29F7	Quality Secret Dagger+3	Dagger	100	0
+weapons	0x29F8	Quality Secret Dagger+4	Dagger	100	0
+weapons	0x29F9	Quality Secret Dagger+5	Dagger	100	0
+weapons	0x29FF	Mercury Secret Dagger+1	Dagger	100	0
+weapons	0x2A00	Mercury Secret Dagger+2	Dagger	100	0
+weapons	0x2A01	Mercury Secret Dagger+3	Dagger	100	0
+weapons	0x2A02	Mercury Secret Dagger+4	Dagger	100	0
+weapons	0x2A03	Mercury Secret Dagger+5	Dagger	100	0
+weapons	0x2A09	Fatal Secret Dagger+1	Dagger	100	0
+weapons	0x2A0A	Fatal Secret Dagger+2	Dagger	100	0
+weapons	0x2A0B	Fatal Secret Dagger+3	Dagger	100	0
+weapons	0x2A0C	Fatal Secret Dagger+4	Dagger	100	0
+weapons	0x2A0D	Fatal Secret Dagger+5	Dagger	100	0
+weapons	0x4A38	_?_?w?Rc   (Ghost dagger)	Experimental		1
+weapons	0x4E20	Short Sword	Straight Sword	200	0
+weapons	0x4E21	Short Sword+1	Straight Sword	200	0
+weapons	0x4E22	Short Sword+2	Straight Sword	200	0
+weapons	0x4E23	Short Sword+3	Straight Sword	200	0
+weapons	0x4E24	Short Sword+4	Straight Sword	200	0
+weapons	0x4E25	Short Sword+5	Straight Sword	200	0
+weapons	0x4E26	Short Sword+6	Straight Sword	200	0
+weapons	0x4E27	Short Sword+7	Straight Sword	200	0
+weapons	0x4E28	Short Sword+8	Straight Sword	200	0
+weapons	0x4E29	Short Sword+9	Straight Sword	200	0
+weapons	0x4E2A	Short Sword+10	Straight Sword	200	0
+weapons	0x4E2B	Quality Short Sword+1	Straight Sword	200	0
+weapons	0x4E2C	Quality Short Sword+2	Straight Sword	200	0
+weapons	0x4E2D	Quality Short Sword+3	Straight Sword	200	0
+weapons	0x4E2E	Quality Short Sword+4	Straight Sword	200	0
+weapons	0x4E2F	Quality Short Sword+5	Straight Sword	200	0
+weapons	0x4E35	Dragon Short Sword+1	Straight Sword	200	0
+weapons	0x4E36	Dragon Short Sword+2	Straight Sword	200	0
+weapons	0x4E37	Dragon Short Sword+3	Straight Sword	200	0
+weapons	0x4E38	Dragon Short Sword+4	Straight Sword	200	0
+weapons	0x4E39	Dragon Short Sword+5	Straight Sword	200	0
+weapons	0x4E3F	Moon Short Sword+1	Straight Sword	200	0
+weapons	0x4E40	Moon Short Sword+2	Straight Sword	200	0
+weapons	0x4E41	Moon Short Sword+3	Straight Sword	200	0
+weapons	0x4E42	Moon Short Sword+4	Straight Sword	200	0
+weapons	0x4E43	Moon Short Sword+5	Straight Sword	200	0
+weapons	0x4E49	Crushing Short Sword+1	Straight Sword	200	0
+weapons	0x4E4A	Crushing Short Sword+2	Straight Sword	200	0
+weapons	0x4E4B	Crushing Short Sword+3	Straight Sword	200	0
+weapons	0x4E4C	Crushing Short Sword+4	Straight Sword	200	0
+weapons	0x4E4D	Crushing Short Sword+5	Straight Sword	200	0
+weapons	0x4E53	Blessed Short Sword+1	Straight Sword	200	0
+weapons	0x4E54	Blessed Short Sword+2	Straight Sword	200	0
+weapons	0x4E55	Blessed Short Sword+3	Straight Sword	200	0
+weapons	0x4E56	Blessed Short Sword+4	Straight Sword	200	0
+weapons	0x4E57	Blessed Short Sword+5	Straight Sword	200	0
+weapons	0x4E84	Broadsword	Straight Sword	150	0
+weapons	0x4E85	Broadsword+1	Straight Sword	150	0
+weapons	0x4E86	Broadsword+2	Straight Sword	150	0
+weapons	0x4E87	Broadsword+3	Straight Sword	150	0
+weapons	0x4E88	Broadsword+4	Straight Sword	150	0
+weapons	0x4E89	Broadsword+5	Straight Sword	150	0
+weapons	0x4E8A	Broadsword+6	Straight Sword	150	0
+weapons	0x4E8B	Broadsword+7	Straight Sword	150	0
+weapons	0x4E8C	Broadsword+8	Straight Sword	150	0
+weapons	0x4E8D	Broadsword+9	Straight Sword	150	0
+weapons	0x4E8E	Broadsword+10	Straight Sword	150	0
+weapons	0x4E8F	Sharp Broadsword+1	Straight Sword	150	0
+weapons	0x4E90	Sharp Broadsword+2	Straight Sword	150	0
+weapons	0x4E91	Sharp Broadsword+3	Straight Sword	150	0
+weapons	0x4E92	Sharp Broadsword+4	Straight Sword	150	0
+weapons	0x4E93	Sharp Broadsword+5	Straight Sword	150	0
+weapons	0x4E99	Tearing Broadsword+1	Straight Sword	150	0
+weapons	0x4E9A	Tearing Broadsword+2	Straight Sword	150	0
+weapons	0x4E9B	Tearing Broadsword+3	Straight Sword	150	0
+weapons	0x4E9C	Tearing Broadsword+4	Straight Sword	150	0
+weapons	0x4E9D	Tearing Broadsword+5	Straight Sword	150	0
+weapons	0x4EA3	Crescent Broadsword+1	Straight Sword	150	0
+weapons	0x4EA4	Crescent Broadsword+2	Straight Sword	150	0
+weapons	0x4EA5	Crescent Broadsword+3	Straight Sword	150	0
+weapons	0x4EA6	Crescent Broadsword+4	Straight Sword	150	0
+weapons	0x4EA7	Crescent Broadsword+5	Straight Sword	150	0
+weapons	0x4EAD	Quality Broadsword+1	Straight Sword	150	0
+weapons	0x4EAE	Quality Broadsword+2	Straight Sword	150	0
+weapons	0x4EAF	Quality Broadsword+3	Straight Sword	150	0
+weapons	0x4EB0	Quality Broadsword+4	Straight Sword	150	0
+weapons	0x4EB1	Quality Broadsword+5	Straight Sword	150	0
+weapons	0x4EB7	Mercury Broadsword+1	Straight Sword	150	0
+weapons	0x4EB8	Mercury Broadsword+2	Straight Sword	150	0
+weapons	0x4EB9	Mercury Broadsword+3	Straight Sword	150	0
+weapons	0x4EBA	Mercury Broadsword+4	Straight Sword	150	0
+weapons	0x4EBB	Mercury Broadsword+5	Straight Sword	150	0
+weapons	0x4EC1	Moon Broadsword+1	Straight Sword	150	0
+weapons	0x4EC2	Moon Broadsword+2	Straight Sword	150	0
+weapons	0x4EC3	Moon Broadsword+3	Straight Sword	150	0
+weapons	0x4EC4	Moon Broadsword+4	Straight Sword	150	0
+weapons	0x4EC5	Moon Broadsword+5	Straight Sword	150	0
+weapons	0x4EE8	Long Sword	Straight Sword	200	0
+weapons	0x4EE9	Long Sword+1	Straight Sword	200	0
+weapons	0x4EEA	Long Sword+2	Straight Sword	200	0
+weapons	0x4EEB	Long Sword+3	Straight Sword	200	0
+weapons	0x4EEC	Long Sword+4	Straight Sword	200	0
+weapons	0x4EED	Long Sword+5	Straight Sword	200	0
+weapons	0x4EEE	Long Sword+6	Straight Sword	200	0
+weapons	0x4EEF	Long Sword+7	Straight Sword	200	0
+weapons	0x4EF0	Long Sword+8	Straight Sword	200	0
+weapons	0x4EF1	Long Sword+9	Straight Sword	200	0
+weapons	0x4EF2	Long Sword+10	Straight Sword	200	0
+weapons	0x4EF3	Quality Long Sword+1	Straight Sword	200	0
+weapons	0x4EF4	Quality Long Sword+2	Straight Sword	200	0
+weapons	0x4EF5	Quality Long Sword+3	Straight Sword	200	0
+weapons	0x4EF6	Quality Long Sword+4	Straight Sword	200	0
+weapons	0x4EF7	Quality Long Sword+5	Straight Sword	200	0
+weapons	0x4EFD	Dragon Long Sword+1	Straight Sword	200	0
+weapons	0x4EFE	Dragon Long Sword+2	Straight Sword	200	0
+weapons	0x4EFF	Dragon Long Sword+3	Straight Sword	200	0
+weapons	0x4F00	Dragon Long Sword+4	Straight Sword	200	0
+weapons	0x4F01	Dragon Long Sword+5	Straight Sword	200	0
+weapons	0x4F07	Moon Long Sword+1	Straight Sword	200	0
+weapons	0x4F08	Moon Long Sword+2	Straight Sword	200	0
+weapons	0x4F09	Moon Long Sword+3	Straight Sword	200	0
+weapons	0x4F0A	Moon Long Sword+4	Straight Sword	200	0
+weapons	0x4F0B	Moon Long Sword+5	Straight Sword	200	0
+weapons	0x4F11	Crushing Long Sword+1	Straight Sword	200	0
+weapons	0x4F12	Crushing Long Sword+2	Straight Sword	200	0
+weapons	0x4F13	Crushing Long Sword+3	Straight Sword	200	0
+weapons	0x4F14	Crushing Long Sword+4	Straight Sword	200	0
+weapons	0x4F15	Crushing Long Sword+5	Straight Sword	200	0
+weapons	0x4F1B	Blessed Long Sword+1	Straight Sword	200	0
+weapons	0x4F1C	Blessed Long Sword+2	Straight Sword	200	0
+weapons	0x4F1D	Blessed Long Sword+3	Straight Sword	200	0
+weapons	0x4F1E	Blessed Long Sword+4	Straight Sword	200	0
+weapons	0x4F1F	Blessed Long Sword+5	Straight Sword	200	0
+weapons	0x4F4C	Flamberge	Large Sword	150	0
+weapons	0x4F4D	Flamberge+1	Large Sword	150	0
+weapons	0x4F4E	Flamberge+2	Large Sword	150	0
+weapons	0x4F4F	Flamberge+3	Large Sword	150	0
+weapons	0x4F50	Flamberge+4	Large Sword	150	0
+weapons	0x4F51	Flamberge+5	Large Sword	150	0
+weapons	0x4F52	Flamberge+6	Large Sword	150	0
+weapons	0x4F53	Flamberge+7	Large Sword	150	0
+weapons	0x4F54	Flamberge+8	Large Sword	150	0
+weapons	0x4F55	Flamberge+9	Large Sword	150	0
+weapons	0x4F56	Flamberge+10	Large Sword	150	0
+weapons	0x4F57	Sharp Flamberge+1	Large Sword	150	0
+weapons	0x4F58	Sharp Flamberge+2	Large Sword	150	0
+weapons	0x4F59	Sharp Flamberge+3	Large Sword	150	0
+weapons	0x4F5A	Sharp Flamberge+4	Large Sword	150	0
+weapons	0x4F5B	Sharp Flamberge+5	Large Sword	150	0
+weapons	0x4F61	Tearing Flamberge+1	Large Sword	150	0
+weapons	0x4F62	Tearing Flamberge+2	Large Sword	150	0
+weapons	0x4F63	Tearing Flamberge+3	Large Sword	150	0
+weapons	0x4F64	Tearing Flamberge+4	Large Sword	150	0
+weapons	0x4F65	Tearing Flamberge+5	Large Sword	150	0
+weapons	0x4F6B	Crescent Flamberge+1	Large Sword	150	0
+weapons	0x4F6C	Crescent Flamberge+2	Large Sword	150	0
+weapons	0x4F6D	Crescent Flamberge+3	Large Sword	150	0
+weapons	0x4F6E	Crescent Flamberge+4	Large Sword	150	0
+weapons	0x4F6F	Crescent Flamberge+5	Large Sword	150	0
+weapons	0x4F75	Quality Flamberge+1	Large Sword	150	0
+weapons	0x4F76	Quality Flamberge+2	Large Sword	150	0
+weapons	0x4F77	Quality Flamberge+3	Large Sword	150	0
+weapons	0x4F78	Quality Flamberge+4	Large Sword	150	0
+weapons	0x4F79	Quality Flamberge+5	Large Sword	150	0
+weapons	0x4F7F	Mercury Flamberge+1	Large Sword	150	0
+weapons	0x4F80	Mercury Flamberge+2	Large Sword	150	0
+weapons	0x4F81	Mercury Flamberge+3	Large Sword	150	0
+weapons	0x4F82	Mercury Flamberge+4	Large Sword	150	0
+weapons	0x4F83	Mercury Flamberge+5	Large Sword	150	0
+weapons	0x4F89	Moon Flamberge+1	Large Sword	150	0
+weapons	0x4F8A	Moon Flamberge+2	Large Sword	150	0
+weapons	0x4F8B	Moon Flamberge+3	Large Sword	150	0
+weapons	0x4F8C	Moon Flamberge+4	Large Sword	150	0
+weapons	0x4F8D	Moon Flamberge+5	Large Sword	150	0
+weapons	0x4FB0	Bastard Sword	Large Sword	220	0
+weapons	0x4FB1	Bastard Sword+1	Large Sword	220	0
+weapons	0x4FB2	Bastard Sword+2	Large Sword	220	0
+weapons	0x4FB3	Bastard Sword+3	Large Sword	220	0
+weapons	0x4FB4	Bastard Sword+4	Large Sword	220	0
+weapons	0x4FB5	Bastard Sword+5	Large Sword	220	0
+weapons	0x4FB6	Bastard Sword+6	Large Sword	220	0
+weapons	0x4FB7	Bastard Sword+7	Large Sword	220	0
+weapons	0x4FB8	Bastard Sword+8	Large Sword	220	0
+weapons	0x4FB9	Bastard Sword+9	Large Sword	220	0
+weapons	0x4FBA	Bastard Sword+10	Large Sword	220	0
+weapons	0x4FBB	Quality Bastard Sword+1	Large Sword	220	0
+weapons	0x4FBC	Quality Bastard Sword+2	Large Sword	220	0
+weapons	0x4FBD	Quality Bastard Sword+3	Large Sword	220	0
+weapons	0x4FBE	Quality Bastard Sword+4	Large Sword	220	0
+weapons	0x4FBF	Quality Bastard Sword+5	Large Sword	220	0
+weapons	0x4FC5	Dragon Bastard Sword+1	Large Sword	220	0
+weapons	0x4FC6	Dragon Bastard Sword+2	Large Sword	220	0
+weapons	0x4FC7	Dragon Bastard Sword+3	Large Sword	220	0
+weapons	0x4FC8	Dragon Bastard Sword+4	Large Sword	220	0
+weapons	0x4FC9	Dragon Bastard Sword+5	Large Sword	220	0
+weapons	0x4FCF	Moon Bastard Sword+1	Large Sword	220	0
+weapons	0x4FD0	Moon Bastard Sword+2	Large Sword	220	0
+weapons	0x4FD1	Moon Bastard Sword+3	Large Sword	220	0
+weapons	0x4FD2	Moon Bastard Sword+4	Large Sword	220	0
+weapons	0x4FD3	Moon Bastard Sword+5	Large Sword	220	0
+weapons	0x4FD9	Crushing Bastard Sword+1	Large Sword	220	0
+weapons	0x4FDA	Crushing Bastard Sword+2	Large Sword	220	0
+weapons	0x4FDB	Crushing Bastard Sword+3	Large Sword	220	0
+weapons	0x4FDC	Crushing Bastard Sword+4	Large Sword	220	0
+weapons	0x4FDD	Crushing Bastard Sword+5	Large Sword	220	0
+weapons	0x4FE3	Blessed Bastard Sword+1	Large Sword	220	0
+weapons	0x4FE4	Blessed Bastard Sword+2	Large Sword	220	0
+weapons	0x4FE5	Blessed Bastard Sword+3	Large Sword	220	0
+weapons	0x4FE6	Blessed Bastard Sword+4	Large Sword	220	0
+weapons	0x4FE7	Blessed Bastard Sword+5	Large Sword	220	0
+weapons	0x5014	Claymore	Large Sword	220	0
+weapons	0x5015	Claymore+1	Large Sword	220	0
+weapons	0x5016	Claymore+2	Large Sword	220	0
+weapons	0x5017	Claymore+3	Large Sword	220	0
+weapons	0x5018	Claymore+4	Large Sword	220	0
+weapons	0x5019	Claymore+5	Large Sword	220	0
+weapons	0x501A	Claymore+6	Large Sword	220	0
+weapons	0x501B	Claymore+7	Large Sword	220	0
+weapons	0x501C	Claymore+8	Large Sword	220	0
+weapons	0x501D	Claymore+9	Large Sword	220	0
+weapons	0x501E	Claymore+10	Large Sword	220	0
+weapons	0x501F	Quality Claymore+1	Large Sword	220	0
+weapons	0x5020	Quality Claymore+2	Large Sword	220	0
+weapons	0x5021	Quality Claymore+3	Large Sword	220	0
+weapons	0x5022	Quality Claymore+4	Large Sword	220	0
+weapons	0x5023	Quality Claymore+5	Large Sword	220	0
+weapons	0x5029	Dragon Claymore+1	Large Sword	220	0
+weapons	0x502A	Dragon Claymore+2	Large Sword	220	0
+weapons	0x502B	Dragon Claymore+3	Large Sword	220	0
+weapons	0x502C	Dragon Claymore+4	Large Sword	220	0
+weapons	0x502D	Dragon Claymore+5	Large Sword	220	0
+weapons	0x5033	Moon Claymore+1	Large Sword	220	0
+weapons	0x5034	Moon Claymore+2	Large Sword	220	0
+weapons	0x5035	Moon Claymore+3	Large Sword	220	0
+weapons	0x5036	Moon Claymore+4	Large Sword	220	0
+weapons	0x5037	Moon Claymore+5	Large Sword	220	0
+weapons	0x503D	Crushing Claymore+1	Large Sword	220	0
+weapons	0x503E	Crushing Claymore+2	Large Sword	220	0
+weapons	0x503F	Crushing Claymore+3	Large Sword	220	0
+weapons	0x5040	Crushing Claymore+4	Large Sword	220	0
+weapons	0x5041	Crushing Claymore+5	Large Sword	220	0
+weapons	0x5047	Blessed Claymore+1	Large Sword	220	0
+weapons	0x5048	Blessed Claymore+2	Large Sword	220	0
+weapons	0x5049	Blessed Claymore+3	Large Sword	220	0
+weapons	0x504A	Blessed Claymore+4	Large Sword	220	0
+weapons	0x504B	Blessed Claymore+5	Large Sword	220	0
+weapons	0x5078	Great Sword	Very Large Sword	230	0
+weapons	0x5079	Great Sword+1	Very Large Sword	230	0
+weapons	0x507A	Great Sword+2	Very Large Sword	230	0
+weapons	0x507B	Great Sword+3	Very Large Sword	230	0
+weapons	0x507C	Great Sword+4	Very Large Sword	230	0
+weapons	0x507D	Great Sword+5	Very Large Sword	230	0
+weapons	0x507E	Great Sword+6	Very Large Sword	230	0
+weapons	0x507F	Great Sword+7	Very Large Sword	230	0
+weapons	0x5080	Great Sword+8	Very Large Sword	230	0
+weapons	0x5081	Great Sword+9	Very Large Sword	230	0
+weapons	0x5082	Great Sword+10	Very Large Sword	230	0
+weapons	0x5083	Quality Great Sword+1	Very Large Sword	230	0
+weapons	0x5084	Quality Great Sword+2	Very Large Sword	230	0
+weapons	0x5085	Quality Great Sword+3	Very Large Sword	230	0
+weapons	0x5086	Quality Great Sword+4	Very Large Sword	230	0
+weapons	0x5087	Quality Great Sword+5	Very Large Sword	230	0
+weapons	0x508D	Dragon Great Sword+1	Very Large Sword	230	0
+weapons	0x508E	Dragon Great Sword+2	Very Large Sword	230	0
+weapons	0x508F	Dragon Great Sword+3	Very Large Sword	230	0
+weapons	0x5090	Dragon Great Sword+4	Very Large Sword	230	0
+weapons	0x5091	Dragon Great Sword+5	Very Large Sword	230	0
+weapons	0x5097	Moon Great Sword+1	Very Large Sword	230	0
+weapons	0x5098	Moon Great Sword+2	Very Large Sword	230	0
+weapons	0x5099	Moon Great Sword+3	Very Large Sword	230	0
+weapons	0x509A	Moon Great Sword+4	Very Large Sword	230	0
+weapons	0x509B	Moon Great Sword+5	Very Large Sword	230	0
+weapons	0x50A1	Crushing Great Sword+1	Very Large Sword	230	0
+weapons	0x50A2	Crushing Great Sword+2	Very Large Sword	230	0
+weapons	0x50A3	Crushing Great Sword+3	Very Large Sword	230	0
+weapons	0x50A4	Crushing Great Sword+4	Very Large Sword	230	0
+weapons	0x50A5	Crushing Great Sword+5	Very Large Sword	230	0
+weapons	0x50AB	Blessed Great Sword+1	Very Large Sword	230	0
+weapons	0x50AC	Blessed Great Sword+2	Very Large Sword	230	0
+weapons	0x50AD	Blessed Great Sword+3	Very Large Sword	230	0
+weapons	0x50AE	Blessed Great Sword+4	Very Large Sword	230	0
+weapons	0x50AF	Blessed Great Sword+5	Very Large Sword	230	0
+weapons	0x50DC	Dragon Bone Smasher	Very Large Sword	600	0
+weapons	0x50DD	Dragon Bone Smasher+1	Very Large Sword	600	0
+weapons	0x50DE	Dragon Bone Smasher+2	Very Large Sword	600	0
+weapons	0x50DF	Dragon Bone Smasher+3	Very Large Sword	600	0
+weapons	0x50E0	Dragon Bone Smasher+4	Very Large Sword	600	0
+weapons	0x50E1	Dragon Bone Smasher+5	Very Large Sword	600	0
+weapons	0x5140	Rune Sword	Large Sword	80	0
+weapons	0x5141	Rune Sword+1	Large Sword	80	0
+weapons	0x5142	Rune Sword+2	Large Sword	80	0
+weapons	0x5143	Rune Sword+3	Large Sword	80	0
+weapons	0x5144	Rune Sword+4	Large Sword	80	0
+weapons	0x5145	Rune Sword+5	Large Sword	80	0
+weapons	0x51A4	Soulbrandt	Very Large Sword	400	0
+weapons	0x5208	Demonbrandt	Very Large Sword	400	0
+weapons	0x526C	Storm Ruler	Large Sword	10	0
+weapons	0x526D	Storm Ruler	Experimental		1
+weapons	0x526E	Storm Ruler	Experimental		1
+weapons	0x526F	Storm Ruler	Experimental		1
+weapons	0x5270	Storm Ruler	Experimental		1
+weapons	0x5271	Storm Ruler	Experimental		1
+weapons	0x5272	Storm Ruler	Experimental		1
+weapons	0x5273	Storm Ruler	Experimental		1
+weapons	0x5334	Knight Sword	Straight Sword	220	0
+weapons	0x5335	Knight Sword+1	Straight Sword	220	0
+weapons	0x5336	Knight Sword+2	Straight Sword	220	0
+weapons	0x5337	Knight Sword+3	Straight Sword	220	0
+weapons	0x5338	Knight Sword+4	Straight Sword	220	0
+weapons	0x5339	Knight Sword+5	Straight Sword	220	0
+weapons	0x533A	Knight Sword+6	Straight Sword	220	0
+weapons	0x533B	Knight Sword+7	Straight Sword	220	0
+weapons	0x533C	Knight Sword+8	Straight Sword	220	0
+weapons	0x533D	Knight Sword+9	Straight Sword	220	0
+weapons	0x533E	Knight Sword+10	Straight Sword	220	0
+weapons	0x533F	Quality Knight Sword+1	Straight Sword	220	0
+weapons	0x5340	Quality Knight Sword+2	Straight Sword	220	0
+weapons	0x5341	Quality Knight Sword+3	Straight Sword	220	0
+weapons	0x5342	Quality Knight Sword+4	Straight Sword	220	0
+weapons	0x5343	Quality Knight Sword+5	Straight Sword	220	0
+weapons	0x5349	Dragon Knight Sword+1	Straight Sword	220	0
+weapons	0x534A	Dragon Knight Sword+2	Straight Sword	220	0
+weapons	0x534B	Dragon Knight Sword+3	Straight Sword	220	0
+weapons	0x534C	Dragon Knight Sword+4	Straight Sword	220	0
+weapons	0x534D	Dragon Knight Sword+5	Straight Sword	220	0
+weapons	0x5353	Moon Knight Sword+1	Straight Sword	220	0
+weapons	0x5354	Moon Knight Sword+2	Straight Sword	220	0
+weapons	0x5355	Moon Knight Sword+3	Straight Sword	220	0
+weapons	0x5356	Moon Knight Sword+4	Straight Sword	220	0
+weapons	0x5357	Moon Knight Sword+5	Straight Sword	220	0
+weapons	0x535D	Crushing Knight Sword+1	Straight Sword	220	0
+weapons	0x535E	Crushing Knight Sword+2	Straight Sword	220	0
+weapons	0x535F	Crushing Knight Sword+3	Straight Sword	220	0
+weapons	0x5360	Crushing Knight Sword+4	Straight Sword	220	0
+weapons	0x5361	Crushing Knight Sword+5	Straight Sword	220	0
+weapons	0x5367	Blessed Knight Sword+1	Straight Sword	220	0
+weapons	0x5368	Blessed Knight Sword+2	Straight Sword	220	0
+weapons	0x5369	Blessed Knight Sword+3	Straight Sword	220	0
+weapons	0x536A	Blessed Knight Sword+4	Straight Sword	220	0
+weapons	0x536B	Blessed Knight Sword+5	Straight Sword	220	0
+weapons	0x5398	Broken Sword	Straight Sword	11	0
+weapons	0x53FC	Northern Regalia	Very Large Sword	400	0
+weapons	0x53FD	Northern Regalia	Experimental		1
+weapons	0x5460	Large Sword of Moonlight	Large Sword	900	0
+weapons	0x5461	Large Sword of Moonlight+1	Large Sword	900	0
+weapons	0x5462	Large Sword of Moonlight+2	Large Sword	900	0
+weapons	0x5463	Large Sword of Moonlight+3	Large Sword	900	0
+weapons	0x5464	Large Sword of Moonlight+4	Large Sword	900	0
+weapons	0x5465	Large Sword of Moonlight+5	Large Sword	900	0
+weapons	0x54C4	Blueblood Sword	Straight Sword	400	0
+weapons	0x5528	Penetrating Sword	Straight Sword	240	0
+weapons	0x5529	Penetrating Sword+1	Straight Sword	240	0
+weapons	0x552A	Penetrating Sword+2	Straight Sword	240	0
+weapons	0x552B	Penetrating Sword+3	Straight Sword	240	0
+weapons	0x552C	Penetrating Sword+4	Straight Sword	240	0
+weapons	0x552D	Penetrating Sword+5	Straight Sword	240	0
+weapons	0x558C	Morion Blade	Large Sword	400	0
+weapons	0x558D	Morion Blade	Experimental		1
+weapons	0x558E	Morion Blade	Experimental		1
+weapons	0x558F	Morion Blade	Experimental		1
+weapons	0x5590	Morion Blade	Experimental		1
+weapons	0x5591	Morion Blade	Experimental		1
+weapons	0x7148	_?_?v?Rc    (Ghost Sword)	Experimental		1
+weapons	0x7530	Rapier	Rapier	150	0
+weapons	0x7531	Rapier+1	Rapier	150	0
+weapons	0x7532	Rapier+2	Rapier	150	0
+weapons	0x7533	Rapier+3	Rapier	150	0
+weapons	0x7534	Rapier+4	Rapier	150	0
+weapons	0x7535	Rapier+5	Rapier	150	0
+weapons	0x7536	Rapier+6	Rapier	150	0
+weapons	0x7537	Rapier+7	Rapier	150	0
+weapons	0x7538	Rapier+8	Rapier	150	0
+weapons	0x7539	Rapier+9	Rapier	150	0
+weapons	0x753A	Rapier+10	Rapier	150	0
+weapons	0x753B	Quality Rapier+1	Rapier	150	0
+weapons	0x753C	Quality Rapier+2	Rapier	150	0
+weapons	0x753D	Quality Rapier+3	Rapier	150	0
+weapons	0x753E	Quality Rapier+4	Rapier	150	0
+weapons	0x753F	Quality Rapier+5	Rapier	150	0
+weapons	0x7545	Mercury Rapier+1	Rapier	150	0
+weapons	0x7546	Mercury Rapier+2	Rapier	150	0
+weapons	0x7547	Mercury Rapier+3	Rapier	150	0
+weapons	0x7548	Mercury Rapier+4	Rapier	150	0
+weapons	0x7549	Mercury Rapier+5	Rapier	150	0
+weapons	0x754F	Fatal Rapier+1	Rapier	150	0
+weapons	0x7550	Fatal Rapier+2	Rapier	150	0
+weapons	0x7551	Fatal Rapier+3	Rapier	150	0
+weapons	0x7552	Fatal Rapier+4	Rapier	150	0
+weapons	0x7553	Fatal Rapier+5	Rapier	150	0
+weapons	0x7559	Sharp Rapier+1	Rapier	150	0
+weapons	0x755A	Sharp Rapier+2	Rapier	150	0
+weapons	0x755B	Sharp Rapier+3	Rapier	150	0
+weapons	0x755C	Sharp Rapier+4	Rapier	150	0
+weapons	0x755D	Sharp Rapier+5	Rapier	150	0
+weapons	0x7563	Crescent Rapier+1	Rapier	150	0
+weapons	0x7564	Crescent Rapier+2	Rapier	150	0
+weapons	0x7565	Crescent Rapier+3	Rapier	150	0
+weapons	0x7566	Crescent Rapier+4	Rapier	150	0
+weapons	0x7567	Crescent Rapier+5	Rapier	150	0
+weapons	0x7594	Estoc	Rapier	150	0
+weapons	0x7595	Estoc+1	Rapier	150	0
+weapons	0x7596	Estoc+2	Rapier	150	0
+weapons	0x7597	Estoc+3	Rapier	150	0
+weapons	0x7598	Estoc+4	Rapier	150	0
+weapons	0x7599	Estoc+5	Rapier	150	0
+weapons	0x759A	Estoc+6	Rapier	150	0
+weapons	0x759B	Estoc+7	Rapier	150	0
+weapons	0x759C	Estoc+8	Rapier	150	0
+weapons	0x759D	Estoc+9	Rapier	150	0
+weapons	0x759E	Estoc+10	Rapier	150	0
+weapons	0x759F	Quality Estoc+1	Rapier	150	0
+weapons	0x75A0	Quality Estoc+2	Rapier	150	0
+weapons	0x75A1	Quality Estoc+3	Rapier	150	0
+weapons	0x75A2	Quality Estoc+4	Rapier	150	0
+weapons	0x75A3	Quality Estoc+5	Rapier	150	0
+weapons	0x75A9	Mercury Estoc+1	Rapier	150	0
+weapons	0x75AA	Mercury Estoc+2	Rapier	150	0
+weapons	0x75AB	Mercury Estoc+3	Rapier	150	0
+weapons	0x75AC	Mercury Estoc+4	Rapier	150	0
+weapons	0x75AD	Mercury Estoc+5	Rapier	150	0
+weapons	0x75B3	Fatal Estoc+1	Rapier	150	0
+weapons	0x75B4	Fatal Estoc+2	Rapier	150	0
+weapons	0x75B5	Fatal Estoc+3	Rapier	150	0
+weapons	0x75B6	Fatal Estoc+4	Rapier	150	0
+weapons	0x75B7	Fatal Estoc+5	Rapier	150	0
+weapons	0x75BD	Sharp Estoc+1	Rapier	150	0
+weapons	0x75BE	Sharp Estoc+2	Rapier	150	0
+weapons	0x75BF	Sharp Estoc+3	Rapier	150	0
+weapons	0x75C0	Sharp Estoc+4	Rapier	150	0
+weapons	0x75C1	Sharp Estoc+5	Rapier	150	0
+weapons	0x75C7	Crescent Estoc+1	Rapier	150	0
+weapons	0x75C8	Crescent Estoc+2	Rapier	150	0
+weapons	0x75C9	Crescent Estoc+3	Rapier	150	0
+weapons	0x75CA	Crescent Estoc+4	Rapier	150	0
+weapons	0x75CB	Crescent Estoc+5	Rapier	150	0
+weapons	0x75F8	Epee Rapier	Rapier	400	0
+weapons	0x75F9	Epee Rapier+1	Rapier	400	0
+weapons	0x75FA	Epee Rapier+2	Rapier	400	0
+weapons	0x75FB	Epee Rapier+3	Rapier	400	0
+weapons	0x75FC	Epee Rapier+4	Rapier	400	0
+weapons	0x75FD	Epee Rapier+5	Rapier	400	0
+weapons	0x765C	Spiral Rapier	Rapier	100	0
+weapons	0x765D	Spiral Rapier+1	Rapier	100	0
+weapons	0x765E	Spiral Rapier+2	Rapier	100	0
+weapons	0x765F	Spiral Rapier+3	Rapier	100	0
+weapons	0x7660	Spiral Rapier+4	Rapier	100	0
+weapons	0x7661	Spiral Rapier+5	Rapier	100	0
+weapons	0x7662	Spiral Rapier+6	Rapier	100	0
+weapons	0x7663	Spiral Rapier+7	Rapier	100	0
+weapons	0x7664	Spiral Rapier+8	Rapier	100	0
+weapons	0x7665	Spiral Rapier+9	Rapier	100	0
+weapons	0x7666	Spiral Rapier+10	Rapier	100	0
+weapons	0x7667	Quality Spiral Rapier+1	Rapier	100	0
+weapons	0x7668	Quality Spiral Rapier+2	Rapier	100	0
+weapons	0x7669	Quality Spiral Rapier+3	Rapier	100	0
+weapons	0x766A	Quality Spiral Rapier+4	Rapier	100	0
+weapons	0x766B	Quality Spiral Rapier+5	Rapier	100	0
+weapons	0x7671	Mercury Spiral Rapier+1	Rapier	100	0
+weapons	0x7672	Mercury Spiral Rapier+2	Rapier	100	0
+weapons	0x7673	Mercury Spiral Rapier+3	Rapier	100	0
+weapons	0x7674	Mercury Spiral Rapier+4	Rapier	100	0
+weapons	0x7675	Mercury Spiral Rapier+5	Rapier	100	0
+weapons	0x767B	Fatal Spiral Rapier+1	Rapier	100	0
+weapons	0x767C	Fatal Spiral Rapier+2	Rapier	100	0
+weapons	0x767D	Fatal Spiral Rapier+3	Rapier	100	0
+weapons	0x767E	Fatal Spiral Rapier+4	Rapier	100	0
+weapons	0x767F	Fatal Spiral Rapier+5	Rapier	100	0
+weapons	0x7685	Sharp Spiral Rapier+1	Rapier	100	0
+weapons	0x7686	Sharp Spiral Rapier+2	Rapier	100	0
+weapons	0x7687	Sharp Spiral Rapier+3	Rapier	100	0
+weapons	0x7688	Sharp Spiral Rapier+4	Rapier	100	0
+weapons	0x7689	Sharp Spiral Rapier+5	Rapier	100	0
+weapons	0x768F	Crescent Spiral Rapier+1	Rapier	100	0
+weapons	0x7690	Crescent Spiral Rapier+2	Rapier	100	0
+weapons	0x7691	Crescent Spiral Rapier+3	Rapier	100	0
+weapons	0x7692	Crescent Spiral Rapier+4	Rapier	100	0
+weapons	0x7693	Crescent Spiral Rapier+5	Rapier	100	0
+weapons	0x76C0	Needle of Eternal Agony	Rapier	400	0
+weapons	0x76C1	Needle of Eternal Agony	Rapier		0
+weapons	0x76C2	Needle of Eternal Agony	Rapier		0
+weapons	0x76C3	Needle of Eternal Agony	Rapier		0
+weapons	0x76C4	Needle of Eternal Agony	Rapier		0
+weapons	0x76C5	Needle of Eternal Agony	Rapier		0
+weapons	0x76C6	Needle of Eternal Agony	Rapier		0
+weapons	0x76C7	Needle of Eternal Agony	Rapier		0
+weapons	0x9858	_?_?R:Rc    (Ghost Rapier)	Experimental		1
+weapons	0x9C40	Scimitar	Curved Sword	120	0
+weapons	0x9C41	Scimitar+1	Curved Sword	120	0
+weapons	0x9C42	Scimitar+2	Curved Sword	120	0
+weapons	0x9C43	Scimitar+3	Curved Sword	120	0
+weapons	0x9C44	Scimitar+4	Curved Sword	120	0
+weapons	0x9C45	Scimitar+5	Curved Sword	120	0
+weapons	0x9C46	Scimitar+6	Curved Sword	120	0
+weapons	0x9C47	Scimitar+7	Curved Sword	120	0
+weapons	0x9C48	Scimitar+8	Curved Sword	120	0
+weapons	0x9C49	Scimitar+9	Curved Sword	120	0
+weapons	0x9C4A	Scimitar+10	Curved Sword	120	0
+weapons	0x9C4B	Sharp Scimitar+1	Curved Sword	120	0
+weapons	0x9C4C	Sharp Scimitar+2	Curved Sword	120	0
+weapons	0x9C4D	Sharp Scimitar+3	Curved Sword	120	0
+weapons	0x9C4E	Sharp Scimitar+4	Curved Sword	120	0
+weapons	0x9C4F	Sharp Scimitar+5	Curved Sword	120	0
+weapons	0x9C55	Tearing Scimitar+1	Curved Sword	120	0
+weapons	0x9C56	Tearing Scimitar+2	Curved Sword	120	0
+weapons	0x9C57	Tearing Scimitar+3	Curved Sword	120	0
+weapons	0x9C58	Tearing Scimitar+4	Curved Sword	120	0
+weapons	0x9C59	Tearing Scimitar+5	Curved Sword	120	0
+weapons	0x9C5F	Crescent Scimitar+1	Curved Sword	120	0
+weapons	0x9C60	Crescent Scimitar+2	Curved Sword	120	0
+weapons	0x9C61	Crescent Scimitar+3	Curved Sword	120	0
+weapons	0x9C62	Crescent Scimitar+4	Curved Sword	120	0
+weapons	0x9C63	Crescent Scimitar+5	Curved Sword	120	0
+weapons	0x9C69	Quality Scimitar+1	Curved Sword	120	0
+weapons	0x9C6A	Quality Scimitar+2	Curved Sword	120	0
+weapons	0x9C6B	Quality Scimitar+3	Curved Sword	120	0
+weapons	0x9C6C	Quality Scimitar+4	Curved Sword	120	0
+weapons	0x9C6D	Quality Scimitar+5	Curved Sword	120	0
+weapons	0x9C73	Mercury Scimitar+1	Curved Sword	120	0
+weapons	0x9C74	Mercury Scimitar+2	Curved Sword	120	0
+weapons	0x9C75	Mercury Scimitar+3	Curved Sword	120	0
+weapons	0x9C76	Mercury Scimitar+4	Curved Sword	120	0
+weapons	0x9C77	Mercury Scimitar+5	Curved Sword	120	0
+weapons	0x9C7D	Moon Scimitar+1	Curved Sword	120	0
+weapons	0x9C7E	Moon Scimitar+2	Curved Sword	120	0
+weapons	0x9C7F	Moon Scimitar+3	Curved Sword	120	0
+weapons	0x9C80	Moon Scimitar+4	Curved Sword	120	0
+weapons	0x9C81	Moon Scimitar+5	Curved Sword	120	0
+weapons	0x9CA4	Kilij	Curved Sword	140	0
+weapons	0x9CA5	Kilij+1	Curved Sword	140	0
+weapons	0x9CA6	Kilij+2	Curved Sword	140	0
+weapons	0x9CA7	Kilij+3	Curved Sword	140	0
+weapons	0x9CA8	Kilij+4	Curved Sword	140	0
+weapons	0x9CA9	Kilij+5	Curved Sword	140	0
+weapons	0x9CAA	Kilij+6	Curved Sword	140	0
+weapons	0x9CAB	Kilij+7	Curved Sword	140	0
+weapons	0x9CAC	Kilij+8	Curved Sword	140	0
+weapons	0x9CAD	Kilij+9	Curved Sword	140	0
+weapons	0x9CAE	Kilij+10	Curved Sword	140	0
+weapons	0x9CAF	Sharp Kilij+1	Curved Sword	140	0
+weapons	0x9CB0	Sharp Kilij+2	Curved Sword	140	0
+weapons	0x9CB1	Sharp Kilij+3	Curved Sword	140	0
+weapons	0x9CB2	Sharp Kilij+4	Curved Sword	140	0
+weapons	0x9CB3	Sharp Kilij+5	Curved Sword	140	0
+weapons	0x9CB9	Tearing Kilij+1	Curved Sword	140	0
+weapons	0x9CBA	Tearing Kilij+2	Curved Sword	140	0
+weapons	0x9CBB	Tearing Kilij+3	Curved Sword	140	0
+weapons	0x9CBC	Tearing Kilij+4	Curved Sword	140	0
+weapons	0x9CBD	Tearing Kilij+5	Curved Sword	140	0
+weapons	0x9CC3	Crescent Kilij+1	Curved Sword	140	0
+weapons	0x9CC4	Crescent Kilij+2	Curved Sword	140	0
+weapons	0x9CC5	Crescent Kilij+3	Curved Sword	140	0
+weapons	0x9CC6	Crescent Kilij+4	Curved Sword	140	0
+weapons	0x9CC7	Crescent Kilij+5	Curved Sword	140	0
+weapons	0x9CCD	Quality Kilij+1	Curved Sword	140	0
+weapons	0x9CCE	Quality Kilij+2	Curved Sword	140	0
+weapons	0x9CCF	Quality Kilij+3	Curved Sword	140	0
+weapons	0x9CD0	Quality Kilij+4	Curved Sword	140	0
+weapons	0x9CD1	Quality Kilij+5	Curved Sword	140	0
+weapons	0x9CD7	Mercury Kilij+1	Curved Sword	140	0
+weapons	0x9CD8	Mercury Kilij+2	Curved Sword	140	0
+weapons	0x9CD9	Mercury Kilij+3	Curved Sword	140	0
+weapons	0x9CDA	Mercury Kilij+4	Curved Sword	140	0
+weapons	0x9CDB	Mercury Kilij+5	Curved Sword	140	0
+weapons	0x9CE1	Moon Kilij+1	Curved Sword	140	0
+weapons	0x9CE2	Moon Kilij+2	Curved Sword	140	0
+weapons	0x9CE3	Moon Kilij+3	Curved Sword	140	0
+weapons	0x9CE4	Moon Kilij+4	Curved Sword	140	0
+weapons	0x9CE5	Moon Kilij+5	Curved Sword	140	0
+weapons	0x9D08	Shotel	Curved Sword	100	0
+weapons	0x9D09	Shotel+1	Curved Sword	100	0
+weapons	0x9D0A	Shotel+2	Curved Sword	100	0
+weapons	0x9D0B	Shotel+3	Curved Sword	100	0
+weapons	0x9D0C	Shotel+4	Curved Sword	100	0
+weapons	0x9D0D	Shotel+5	Curved Sword	100	0
+weapons	0x9D0E	Shotel+6	Curved Sword	100	0
+weapons	0x9D0F	Shotel+7	Curved Sword	100	0
+weapons	0x9D10	Shotel+8	Curved Sword	100	0
+weapons	0x9D11	Shotel+9	Curved Sword	100	0
+weapons	0x9D12	Shotel+10	Curved Sword	100	0
+weapons	0x9D13	Sharp Shotel+1	Curved Sword	100	0
+weapons	0x9D14	Sharp Shotel+2	Curved Sword	100	0
+weapons	0x9D15	Sharp Shotel+3	Curved Sword	100	0
+weapons	0x9D16	Sharp Shotel+4	Curved Sword	100	0
+weapons	0x9D17	Sharp Shotel+5	Curved Sword	100	0
+weapons	0x9D1D	Tearing Shotel+1	Curved Sword	100	0
+weapons	0x9D1E	Tearing Shotel+2	Curved Sword	100	0
+weapons	0x9D1F	Tearing Shotel+3	Curved Sword	100	0
+weapons	0x9D20	Tearing Shotel+4	Curved Sword	100	0
+weapons	0x9D21	Tearing Shotel+5	Curved Sword	100	0
+weapons	0x9D27	Quality Shotel+1	Curved Sword	100	0
+weapons	0x9D28	Quality Shotel+2	Curved Sword	100	0
+weapons	0x9D29	Quality Shotel+3	Curved Sword	100	0
+weapons	0x9D2A	Quality Shotel+4	Curved Sword	100	0
+weapons	0x9D2B	Quality Shotel+5	Curved Sword	100	0
+weapons	0x9D31	Mercury Shotel+1	Curved Sword	100	0
+weapons	0x9D32	Mercury Shotel+2	Curved Sword	100	0
+weapons	0x9D33	Mercury Shotel+3	Curved Sword	100	0
+weapons	0x9D34	Mercury Shotel+4	Curved Sword	100	0
+weapons	0x9D35	Mercury Shotel+5	Curved Sword	100	0
+weapons	0x9D3B	Moon Shotel+1	Curved Sword	100	0
+weapons	0x9D3C	Moon Shotel+2	Curved Sword	100	0
+weapons	0x9D3D	Moon Shotel+3	Curved Sword	100	0
+weapons	0x9D3E	Moon Shotel+4	Curved Sword	100	0
+weapons	0x9D3F	Moon Shotel+5	Curved Sword	100	0
+weapons	0x9D45	Crescent Shotel+1	Curved Sword	100	0
+weapons	0x9D46	Crescent Shotel+2	Curved Sword	100	0
+weapons	0x9D47	Crescent Shotel+3	Curved Sword	100	0
+weapons	0x9D48	Crescent Shotel+4	Curved Sword	100	0
+weapons	0x9D49	Crescent Shotel+5	Curved Sword	100	0
+weapons	0x9D6C	Falchion	Curved Sword	120	0
+weapons	0x9D6D	Falchion+1	Curved Sword	120	0
+weapons	0x9D6E	Falchion+2	Curved Sword	120	0
+weapons	0x9D6F	Falchion+3	Curved Sword	120	0
+weapons	0x9D70	Falchion+4	Curved Sword	120	0
+weapons	0x9D71	Falchion+5	Curved Sword	120	0
+weapons	0x9D72	Falchion+6	Curved Sword	120	0
+weapons	0x9D73	Falchion+7	Curved Sword	120	0
+weapons	0x9D74	Falchion+8	Curved Sword	120	0
+weapons	0x9D75	Falchion+9	Curved Sword	120	0
+weapons	0x9D76	Falchion+10	Curved Sword	120	0
+weapons	0x9D77	Sharp Falchion+1	Curved Sword	120	0
+weapons	0x9D78	Sharp Falchion+2	Curved Sword	120	0
+weapons	0x9D79	Sharp Falchion+3	Curved Sword	120	0
+weapons	0x9D7A	Sharp Falchion+4	Curved Sword	120	0
+weapons	0x9D7B	Sharp Falchion+5	Curved Sword	120	0
+weapons	0x9D81	Tearing Falchion+1	Curved Sword	120	0
+weapons	0x9D82	Tearing Falchion+2	Curved Sword	120	0
+weapons	0x9D83	Tearing Falchion+3	Curved Sword	120	0
+weapons	0x9D84	Tearing Falchion+4	Curved Sword	120	0
+weapons	0x9D85	Tearing Falchion+5	Curved Sword	120	0
+weapons	0x9D8B	Crescent Falchion+1	Curved Sword	120	0
+weapons	0x9D8C	Crescent Falchion+2	Curved Sword	120	0
+weapons	0x9D8D	Crescent Falchion+3	Curved Sword	120	0
+weapons	0x9D8E	Crescent Falchion+4	Curved Sword	120	0
+weapons	0x9D8F	Crescent Falchion+5	Curved Sword	120	0
+weapons	0x9D95	Quality Falchion+1	Curved Sword	120	0
+weapons	0x9D96	Quality Falchion+2	Curved Sword	120	0
+weapons	0x9D97	Quality Falchion+3	Curved Sword	120	0
+weapons	0x9D98	Quality Falchion+4	Curved Sword	120	0
+weapons	0x9D99	Quality Falchion+5	Curved Sword	120	0
+weapons	0x9D9F	Mercury Falchion+1	Curved Sword	120	0
+weapons	0x9DA0	Mercury Falchion+2	Curved Sword	120	0
+weapons	0x9DA1	Mercury Falchion+3	Curved Sword	120	0
+weapons	0x9DA2	Mercury Falchion+4	Curved Sword	120	0
+weapons	0x9DA3	Mercury Falchion+5	Curved Sword	120	0
+weapons	0x9DA9	Moon Falchion+1	Curved Sword	120	0
+weapons	0x9DAA	Moon Falchion+2	Curved Sword	120	0
+weapons	0x9DAB	Moon Falchion+3	Curved Sword	120	0
+weapons	0x9DAC	Moon Falchion+4	Curved Sword	120	0
+weapons	0x9DAD	Moon Falchion+5	Curved Sword	120	0
+weapons	0x9DD0	Uchigatana	Katana	70	0
+weapons	0x9DD1	Uchigatana+1	Katana	70	0
+weapons	0x9DD2	Uchigatana+2	Katana	70	0
+weapons	0x9DD3	Uchigatana+3	Katana	70	0
+weapons	0x9DD4	Uchigatana+4	Katana	70	0
+weapons	0x9DD5	Uchigatana+5	Katana	70	0
+weapons	0x9DD6	Uchigatana+6	Katana	70	0
+weapons	0x9DD7	Uchigatana+7	Katana	70	0
+weapons	0x9DD8	Uchigatana+8	Katana	70	0
+weapons	0x9DD9	Uchigatana+9	Katana	70	0
+weapons	0x9DDA	Uchigatana+10	Katana	70	0
+weapons	0x9DDB	Sharp Uchigatana+1	Katana	70	0
+weapons	0x9DDC	Sharp Uchigatana+2	Katana	70	0
+weapons	0x9DDD	Sharp Uchigatana+3	Katana	70	0
+weapons	0x9DDE	Sharp Uchigatana+4	Katana	70	0
+weapons	0x9DDF	Sharp Uchigatana+5	Katana	70	0
+weapons	0x9DE5	Tearing Uchigatana+1	Katana	70	0
+weapons	0x9DE6	Tearing Uchigatana+2	Katana	70	0
+weapons	0x9DE7	Tearing Uchigatana+3	Katana	70	0
+weapons	0x9DE8	Tearing Uchigatana+4	Katana	70	0
+weapons	0x9DE9	Tearing Uchigatana+5	Katana	70	0
+weapons	0x9DEF	Crescent Uchigatana+1	Katana	70	0
+weapons	0x9DF0	Crescent Uchigatana+2	Katana	70	0
+weapons	0x9DF1	Crescent Uchigatana+3	Katana	70	0
+weapons	0x9DF2	Crescent Uchigatana+4	Katana	70	0
+weapons	0x9DF3	Crescent Uchigatana+5	Katana	70	0
+weapons	0x9DF9	Quality Uchigatana+1	Katana	70	0
+weapons	0x9DFA	Quality Uchigatana+2	Katana	70	0
+weapons	0x9DFB	Quality Uchigatana+3	Katana	70	0
+weapons	0x9DFC	Quality Uchigatana+4	Katana	70	0
+weapons	0x9DFD	Quality Uchigatana+5	Katana	70	0
+weapons	0x9E03	Mercury Uchigatana+1	Katana	70	0
+weapons	0x9E04	Mercury Uchigatana+2	Katana	70	0
+weapons	0x9E05	Mercury Uchigatana+3	Katana	70	0
+weapons	0x9E06	Mercury Uchigatana+4	Katana	70	0
+weapons	0x9E07	Mercury Uchigatana+5	Katana	70	0
+weapons	0x9E0D	Moon Uchigatana+1	Katana	70	0
+weapons	0x9E0E	Moon Uchigatana+2	Katana	70	0
+weapons	0x9E0F	Moon Uchigatana+3	Katana	70	0
+weapons	0x9E10	Moon Uchigatana+4	Katana	70	0
+weapons	0x9E11	Moon Uchigatana+5	Katana	70	0
+weapons	0x9E34	Hiltless	Katana	70	0
+weapons	0x9E35	Hiltless+1	Katana	70	0
+weapons	0x9E36	Hiltless+2	Katana	70	0
+weapons	0x9E37	Hiltless+3	Katana	70	0
+weapons	0x9E38	Hiltless+4	Katana	70	0
+weapons	0x9E39	Hiltless+5	Katana	70	0
+weapons	0x9E98	Blind	Katana	50	0
+weapons	0x9E99	Blind+1	Katana	50	0
+weapons	0x9E9A	Blind+2	Katana	50	0
+weapons	0x9E9B	Blind+3	Katana	50	0
+weapons	0x9E9C	Blind+4	Katana	50	0
+weapons	0x9E9D	Blind+5	Katana	50	0
+weapons	0x9EFC	Magic Sword 'Makoto'	Katana	70	0
+weapons	0x9EFD	Magic Sword 'Makoto'+1	Katana	70	0
+weapons	0x9EFE	Magic Sword 'Makoto'+2	Katana	70	0
+weapons	0x9EFF	Magic Sword 'Makoto'+3	Katana	70	0
+weapons	0x9F00	Magic Sword 'Makoto'+4	Katana	70	0
+weapons	0x9F01	Magic Sword 'Makoto'+5	Katana	70	0
+weapons	0x9FC4	Large Sword of Searching	Very Large Sword	400	0
+weapons	0x9FC5	Large Sword of Searching	Experimental		1
+weapons	0x9FC6	Large Sword of Searching	Experimental		1
+weapons	0x9FC7	Large Sword of Searching	Experimental		1
+weapons	0x9FC8	Large Sword of Searching	Experimental		1
+weapons	0x9FC9	Large Sword of Searching	Experimental		1
+weapons	0x9FCA	Large Sword of Searching	Experimental		1
+weapons	0x9FCB	Large Sword of Searching	Experimental		1
+weapons	0x9FCC	Large Sword of Searching	Experimental		1
+weapons	0xBF68	_?_?f?Rc    (Ghost Falchion)	Experimental		1
+weapons	0xC350	Battle Axe	Axe	220	0
+weapons	0xC351	Battle Axe+1	Axe	220	0
+weapons	0xC352	Battle Axe+2	Axe	220	0
+weapons	0xC353	Battle Axe+3	Axe	220	0
+weapons	0xC354	Battle Axe+4	Axe	220	0
+weapons	0xC355	Battle Axe+5	Axe	220	0
+weapons	0xC356	Battle Axe+6	Axe	220	0
+weapons	0xC357	Battle Axe+7	Axe	220	0
+weapons	0xC358	Battle Axe+8	Axe	220	0
+weapons	0xC359	Battle Axe+9	Axe	220	0
+weapons	0xC35A	Battle Axe+10	Axe	220	0
+weapons	0xC35B	Crushing Battle Axe+1	Axe	220	0
+weapons	0xC35C	Crushing Battle Axe+2	Axe	220	0
+weapons	0xC35D	Crushing Battle Axe+3	Axe	220	0
+weapons	0xC35E	Crushing Battle Axe+4	Axe	220	0
+weapons	0xC35F	Crushing Battle Axe+5	Axe	220	0
+weapons	0xC365	Dragon Battle Axe+1	Axe	220	0
+weapons	0xC366	Dragon Battle Axe+2	Axe	220	0
+weapons	0xC367	Dragon Battle Axe+3	Axe	220	0
+weapons	0xC368	Dragon Battle Axe+4	Axe	220	0
+weapons	0xC369	Dragon Battle Axe+5	Axe	220	0
+weapons	0xC36F	Moon Battle Axe+1	Axe	220	0
+weapons	0xC370	Moon Battle Axe+2	Axe	220	0
+weapons	0xC371	Moon Battle Axe+3	Axe	220	0
+weapons	0xC372	Moon Battle Axe+4	Axe	220	0
+weapons	0xC373	Moon Battle Axe+5	Axe	220	0
+weapons	0xC379	Quality Battle Axe+1	Axe	220	0
+weapons	0xC37A	Quality Battle Axe+2	Axe	220	0
+weapons	0xC37B	Quality Battle Axe+3	Axe	220	0
+weapons	0xC37C	Quality Battle Axe+4	Axe	220	0
+weapons	0xC37D	Quality Battle Axe+5	Axe	220	0
+weapons	0xC383	Blessed Battle Axe+1	Axe	220	0
+weapons	0xC384	Blessed Battle Axe+2	Axe	220	0
+weapons	0xC385	Blessed Battle Axe+3	Axe	220	0
+weapons	0xC386	Blessed Battle Axe+4	Axe	220	0
+weapons	0xC387	Blessed Battle Axe+5	Axe	220	0
+weapons	0xC418	Great Axe	Large Axe	230	0
+weapons	0xC419	Great Axe+1	Large Axe	230	0
+weapons	0xC41A	Great Axe+2	Large Axe	230	0
+weapons	0xC41B	Great Axe+3	Large Axe	230	0
+weapons	0xC41C	Great Axe+4	Large Axe	230	0
+weapons	0xC41D	Great Axe+5	Large Axe	230	0
+weapons	0xC41E	Great Axe+6	Large Axe	230	0
+weapons	0xC41F	Great Axe+7	Large Axe	230	0
+weapons	0xC420	Great Axe+8	Large Axe	230	0
+weapons	0xC421	Great Axe+9	Large Axe	230	0
+weapons	0xC422	Great Axe+10	Large Axe	230	0
+weapons	0xC423	Crushing Great Axe+1	Large Axe	230	0
+weapons	0xC424	Crushing Great Axe+2	Large Axe	230	0
+weapons	0xC425	Crushing Great Axe+3	Large Axe	230	0
+weapons	0xC426	Crushing Great Axe+4	Large Axe	230	0
+weapons	0xC427	Crushing Great Axe+5	Large Axe	230	0
+weapons	0xC42D	Dragon Great Axe+1	Large Axe	230	0
+weapons	0xC42E	Dragon Great Axe+2	Large Axe	230	0
+weapons	0xC42F	Dragon Great Axe+3	Large Axe	230	0
+weapons	0xC430	Dragon Great Axe+4	Large Axe	230	0
+weapons	0xC431	Dragon Great Axe+5	Large Axe	230	0
+weapons	0xC437	Moon Great Axe+1	Large Axe	230	0
+weapons	0xC438	Moon Great Axe+2	Large Axe	230	0
+weapons	0xC439	Moon Great Axe+3	Large Axe	230	0
+weapons	0xC43A	Moon Great Axe+4	Large Axe	230	0
+weapons	0xC43B	Moon Great Axe+5	Large Axe	230	0
+weapons	0xC441	Quality Great Axe+1	Large Axe	230	0
+weapons	0xC442	Quality Great Axe+2	Large Axe	230	0
+weapons	0xC443	Quality Great Axe+3	Large Axe	230	0
+weapons	0xC444	Quality Great Axe+4	Large Axe	230	0
+weapons	0xC445	Quality Great Axe+5	Large Axe	230	0
+weapons	0xC44B	Blessed Great Axe+1	Large Axe	230	0
+weapons	0xC44C	Blessed Great Axe+2	Large Axe	230	0
+weapons	0xC44D	Blessed Great Axe+3	Large Axe	230	0
+weapons	0xC44E	Blessed Great Axe+4	Large Axe	230	0
+weapons	0xC44F	Blessed Great Axe+5	Large Axe	230	0
+weapons	0xC47C	Crescent Axe	Axe	200	0
+weapons	0xC47D	Crescent Axe+1	Axe	200	0
+weapons	0xC47E	Crescent Axe+2	Axe	200	0
+weapons	0xC47F	Crescent Axe+3	Axe	200	0
+weapons	0xC480	Crescent Axe+4	Axe	200	0
+weapons	0xC481	Crescent Axe+5	Axe	200	0
+weapons	0xC482	Crescent Axe+6	Axe	200	0
+weapons	0xC483	Crescent Axe+7	Axe	200	0
+weapons	0xC484	Crescent Axe+8	Axe	200	0
+weapons	0xC485	Crescent Axe+9	Axe	200	0
+weapons	0xC486	Crescent Axe+10	Axe	200	0
+weapons	0xC487	Crushing Crescent Axe+1	Axe	200	0
+weapons	0xC488	Crushing Crescent Axe+2	Axe	200	0
+weapons	0xC489	Crushing Crescent Axe+3	Axe	200	0
+weapons	0xC48A	Crushing Crescent Axe+4	Axe	200	0
+weapons	0xC48B	Crushing Crescent Axe+5	Axe	200	0
+weapons	0xC491	Dragon Crescent Axe+1	Axe	200	0
+weapons	0xC492	Dragon Crescent Axe+2	Axe	200	0
+weapons	0xC493	Dragon Crescent Axe+3	Axe	200	0
+weapons	0xC494	Dragon Crescent Axe+4	Axe	200	0
+weapons	0xC495	Dragon Crescent Axe+5	Axe	200	0
+weapons	0xC49B	Moon Crescent Axe+1	Axe	200	0
+weapons	0xC49C	Moon Crescent Axe+2	Axe	200	0
+weapons	0xC49D	Moon Crescent Axe+3	Axe	200	0
+weapons	0xC49E	Moon Crescent Axe+4	Axe	200	0
+weapons	0xC49F	Moon Crescent Axe+5	Axe	200	0
+weapons	0xC4A5	Quality Crescent Axe+1	Axe	200	0
+weapons	0xC4A6	Quality Crescent Axe+2	Axe	200	0
+weapons	0xC4A7	Quality Crescent Axe+3	Axe	200	0
+weapons	0xC4A8	Quality Crescent Axe+4	Axe	200	0
+weapons	0xC4A9	Quality Crescent Axe+5	Axe	200	0
+weapons	0xC4AF	Blessed Crescent Axe+1	Axe	200	0
+weapons	0xC4B0	Blessed Crescent Axe+2	Axe	200	0
+weapons	0xC4B1	Blessed Crescent Axe+3	Axe	200	0
+weapons	0xC4B2	Blessed Crescent Axe+4	Axe	200	0
+weapons	0xC4B3	Blessed Crescent Axe+5	Axe	200	0
+weapons	0xC4E0	Guillotine Axe	Axe	250	0
+weapons	0xC4E1	Guillotine Axe+1	Axe	250	0
+weapons	0xC4E2	Guillotine Axe+2	Axe	250	0
+weapons	0xC4E3	Guillotine Axe+3	Axe	250	0
+weapons	0xC4E4	Guillotine Axe+4	Axe	250	0
+weapons	0xC4E5	Guillotine Axe+5	Axe	250	0
+weapons	0xC4E6	Guillotine Axe+6	Axe	250	0
+weapons	0xC4E7	Guillotine Axe+7	Axe	250	0
+weapons	0xC4E8	Guillotine Axe+8	Axe	250	0
+weapons	0xC4E9	Guillotine Axe+9	Axe	250	0
+weapons	0xC4EA	Guillotine Axe+10	Axe	250	0
+weapons	0xC4EB	Crushing Guillotine Axe+1	Axe	250	0
+weapons	0xC4EC	Crushing Guillotine Axe+2	Axe	250	0
+weapons	0xC4ED	Crushing Guillotine Axe+3	Axe	250	0
+weapons	0xC4EE	Crushing Guillotine Axe+4	Axe	250	0
+weapons	0xC4EF	Crushing Guillotine Axe+5	Axe	250	0
+weapons	0xC4F5	Dragon Guillotine Axe+1	Axe	250	0
+weapons	0xC4F6	Dragon Guillotine Axe+2	Axe	250	0
+weapons	0xC4F7	Dragon Guillotine Axe+3	Axe	250	0
+weapons	0xC4F8	Dragon Guillotine Axe+4	Axe	250	0
+weapons	0xC4F9	Dragon Guillotine Axe+5	Axe	250	0
+weapons	0xC4FF	Moon Guillotine Axe+1	Axe	250	0
+weapons	0xC500	Moon Guillotine Axe+2	Axe	250	0
+weapons	0xC501	Moon Guillotine Axe+3	Axe	250	0
+weapons	0xC502	Moon Guillotine Axe+4	Axe	250	0
+weapons	0xC503	Moon Guillotine Axe+5	Axe	250	0
+weapons	0xC509	Quality Guillotine Axe+1	Axe	250	0
+weapons	0xC50A	Quality Guillotine Axe+2	Axe	250	0
+weapons	0xC50B	Quality Guillotine Axe+3	Axe	250	0
+weapons	0xC50C	Quality Guillotine Axe+4	Axe	250	0
+weapons	0xC50D	Quality Guillotine Axe+5	Axe	250	0
+weapons	0xC513	Blessed Guillotine Axe+1	Axe	250	0
+weapons	0xC514	Blessed Guillotine Axe+2	Axe	250	0
+weapons	0xC515	Blessed Guillotine Axe+3	Axe	250	0
+weapons	0xC516	Blessed Guillotine Axe+4	Axe	250	0
+weapons	0xC517	Blessed Guillotine Axe+5	Axe	250	0
+weapons	0xC544	Dozer Axe	Large Axe	400	0
+weapons	0xC545	Dozer Axe	Experimental		1
+weapons	0xC546	Dozer Axe	Experimental		1
+weapons	0xC547	Dozer Axe	Experimental		1
+weapons	0xC548	Dozer Axe	Experimental		1
+weapons	0xE678	_?_?e?    (Ghost Hand Axe)	Experimental		1
+weapons	0xEA60	Club	Hammer	120	0
+weapons	0xEA61	Crushing Club+1	Experimental		1
+weapons	0xEA62	Crushing Club+2	Experimental		1
+weapons	0xEA63	Crushing Club+3	Experimental		1
+weapons	0xEA64	Crushing Club+4	Experimental		1
+weapons	0xEA65	Crushing Club+5	Experimental		1
+weapons	0xEA6B	Blessed Club+1	Experimental		1
+weapons	0xEA6C	Blessed Club+2	Experimental		1
+weapons	0xEA6D	Blessed Club+3	Experimental		1
+weapons	0xEA6E	Blessed Club+4	Experimental		1
+weapons	0xEA6F	Blessed Club+5	Experimental		1
+weapons	0xEAC4	Mace	Hammer	250	0
+weapons	0xEAC5	Crushing Mace+1	Hammer	250	0
+weapons	0xEAC6	Crushing Mace+2	Hammer	250	0
+weapons	0xEAC7	Crushing Mace+3	Hammer	250	0
+weapons	0xEAC8	Crushing Mace+4	Hammer	250	0
+weapons	0xEAC9	Crushing Mace+5	Hammer	250	0
+weapons	0xEACF	Blessed Mace+1	Hammer	250	0
+weapons	0xEAD0	Blessed Mace+2	Hammer	250	0
+weapons	0xEAD1	Blessed Mace+3	Hammer	250	0
+weapons	0xEAD2	Blessed Mace+4	Hammer	250	0
+weapons	0xEAD3	Blessed Mace+5	Hammer	250	0
+weapons	0xEAD9	Mace+1	Hammer	250	0
+weapons	0xEADA	Mace+2	Hammer	250	0
+weapons	0xEADB	Mace+3	Hammer	250	0
+weapons	0xEADC	Mace+4	Hammer	250	0
+weapons	0xEADD	Mace+5	Hammer	250	0
+weapons	0xEADE	Mace+6	Hammer	250	0
+weapons	0xEADF	Mace+7	Hammer	250	0
+weapons	0xEAE0	Mace+8	Hammer	250	0
+weapons	0xEAE1	Mace+9	Hammer	250	0
+weapons	0xEAE2	Mace+10	Hammer	250	0
+weapons	0xEAE3	Quality Mace+1	Hammer	250	0
+weapons	0xEAE4	Quality Mace+2	Hammer	250	0
+weapons	0xEAE5	Quality Mace+3	Hammer	250	0
+weapons	0xEAE6	Quality Mace+4	Hammer	250	0
+weapons	0xEAE7	Quality Mace+5	Hammer	250	0
+weapons	0xEAED	Dragon Mace+1	Hammer	250	0
+weapons	0xEAEE	Dragon Mace+2	Hammer	250	0
+weapons	0xEAEF	Dragon Mace+3	Hammer	250	0
+weapons	0xEAF0	Dragon Mace+4	Hammer	250	0
+weapons	0xEAF1	Dragon Mace+5	Hammer	250	0
+weapons	0xEAF7	Moon Mace+1	Hammer	250	0
+weapons	0xEAF8	Moon Mace+2	Hammer	250	0
+weapons	0xEAF9	Moon Mace+3	Hammer	250	0
+weapons	0xEAFA	Moon Mace+4	Hammer	250	0
+weapons	0xEAFB	Moon Mace+5	Hammer	250	0
+weapons	0xEB28	War Pick	Hammer	170	0
+weapons	0xEB29	War Pick+1	Hammer	170	0
+weapons	0xEB2A	War Pick+2	Hammer	170	0
+weapons	0xEB2B	War Pick+3	Hammer	170	0
+weapons	0xEB2C	War Pick+4	Hammer	170	0
+weapons	0xEB2D	War Pick+5	Hammer	170	0
+weapons	0xEB2E	War Pick+6	Hammer	170	0
+weapons	0xEB2F	War Pick+7	Hammer	170	0
+weapons	0xEB30	War Pick+8	Hammer	170	0
+weapons	0xEB31	War Pick+9	Hammer	170	0
+weapons	0xEB32	War Pick+10	Hammer	170	0
+weapons	0xEB33	Quality War Pick+1	Hammer	170	0
+weapons	0xEB34	Quality War Pick+2	Hammer	170	0
+weapons	0xEB35	Quality War Pick+3	Hammer	170	0
+weapons	0xEB36	Quality War Pick+4	Hammer	170	0
+weapons	0xEB37	Quality War Pick+5	Hammer	170	0
+weapons	0xEB3D	Mercury War Pick+1	Hammer	170	0
+weapons	0xEB3E	Mercury War Pick+2	Hammer	170	0
+weapons	0xEB3F	Mercury War Pick+3	Hammer	170	0
+weapons	0xEB40	Mercury War Pick+4	Hammer	170	0
+weapons	0xEB41	Mercury War Pick+5	Hammer	170	0
+weapons	0xEB47	Sharp War Pick+1	Hammer	170	0
+weapons	0xEB48	Sharp War Pick+2	Hammer	170	0
+weapons	0xEB49	Sharp War Pick+3	Hammer	170	0
+weapons	0xEB4A	Sharp War Pick+4	Hammer	170	0
+weapons	0xEB4B	Sharp War Pick+5	Hammer	170	0
+weapons	0xEB51	Tearing War Pick+1	Hammer	170	0
+weapons	0xEB52	Tearing War Pick+2	Hammer	170	0
+weapons	0xEB53	Tearing War Pick+3	Hammer	170	0
+weapons	0xEB54	Tearing War Pick+4	Hammer	170	0
+weapons	0xEB55	Tearing War Pick+5	Hammer	170	0
+weapons	0xEB5B	Moon War Pick+1	Hammer	170	0
+weapons	0xEB5C	Moon War Pick+2	Hammer	170	0
+weapons	0xEB5D	Moon War Pick+3	Hammer	170	0
+weapons	0xEB5E	Moon War Pick+4	Hammer	170	0
+weapons	0xEB5F	Moon War Pick+5	Hammer	170	0
+weapons	0xEB8C	Morning Star	Hammer	210	0
+weapons	0xEB8D	Crushing Morning Star+1	Hammer	210	0
+weapons	0xEB8E	Crushing Morning Star+2	Hammer	210	0
+weapons	0xEB8F	Crushing Morning Star+3	Hammer	210	0
+weapons	0xEB90	Crushing Morning Star+4	Hammer	210	0
+weapons	0xEB91	Crushing Morning Star+5	Hammer	210	0
+weapons	0xEB97	Blessed Morning Star+1	Hammer	210	0
+weapons	0xEB98	Blessed Morning Star+2	Hammer	210	0
+weapons	0xEB99	Blessed Morning Star+3	Hammer	210	0
+weapons	0xEB9A	Blessed Morning Star+4	Hammer	210	0
+weapons	0xEB9B	Blessed Morning Star+5	Hammer	210	0
+weapons	0xEBA1	Morning Star+1	Hammer	210	0
+weapons	0xEBA2	Morning Star+2	Hammer	210	0
+weapons	0xEBA3	Morning Star+3	Hammer	210	0
+weapons	0xEBA4	Morning Star+4	Hammer	210	0
+weapons	0xEBA5	Morning Star+5	Hammer	210	0
+weapons	0xEBA6	Morning Star+6	Hammer	210	0
+weapons	0xEBA7	Morning Star+7	Hammer	210	0
+weapons	0xEBA8	Morning Star+8	Hammer	210	0
+weapons	0xEBA9	Morning Star+9	Hammer	210	0
+weapons	0xEBAA	Morning Star+10	Hammer	210	0
+weapons	0xEBAB	Quality Morning Star+1	Hammer	210	0
+weapons	0xEBAC	Quality Morning Star+2	Hammer	210	0
+weapons	0xEBAD	Quality Morning Star+3	Hammer	210	0
+weapons	0xEBAE	Quality Morning Star+4	Hammer	210	0
+weapons	0xEBAF	Quality Morning Star+5	Hammer	210	0
+weapons	0xEBB5	Dragon Morning Star+1	Hammer	210	0
+weapons	0xEBB6	Dragon Morning Star+2	Hammer	210	0
+weapons	0xEBB7	Dragon Morning Star+3	Hammer	210	0
+weapons	0xEBB8	Dragon Morning Star+4	Hammer	210	0
+weapons	0xEBB9	Dragon Morning Star+5	Hammer	210	0
+weapons	0xEBBF	Moon Morning Star+1	Hammer	210	0
+weapons	0xEBC0	Moon Morning Star+2	Hammer	210	0
+weapons	0xEBC1	Moon Morning Star+3	Hammer	210	0
+weapons	0xEBC2	Moon Morning Star+4	Hammer	210	0
+weapons	0xEBC3	Moon Morning Star+5	Hammer	210	0
+weapons	0xEBF0	Great Club	Large Hammer	140	0
+weapons	0xEBF1	Crushing Great Club+1	Experimental		1
+weapons	0xEBF2	Crushing Great Club+2	Experimental		1
+weapons	0xEBF3	Crushing Great Club+3	Experimental		1
+weapons	0xEBF4	Crushing Great Club+4	Experimental		1
+weapons	0xEBF5	Crushing Great Club+5	Experimental		1
+weapons	0xEBFB	Blessed Great Club+1	Experimental		1
+weapons	0xEBFC	Blessed Great Club+2	Experimental		1
+weapons	0xEBFD	Blessed Great Club+3	Experimental		1
+weapons	0xEBFE	Blessed Great Club+4	Experimental		1
+weapons	0xEBFF	Blessed Great Club+5	Experimental		1
+weapons	0xEC54	Bramd	Large Hammer	950	0
+weapons	0xEC55	Bramd+1	Large Hammer	950	0
+weapons	0xEC56	Bramd+2	Large Hammer	950	0
+weapons	0xEC57	Bramd+3	Large Hammer	950	0
+weapons	0xEC58	Bramd+4	Large Hammer	950	0
+weapons	0xEC59	Bramd+5	Large Hammer	950	0
+weapons	0xECB8	Pickaxe	Hammer	300	0
+weapons	0xECB9	Pickaxe+1	Hammer	300	0
+weapons	0xECBA	Pickaxe+2	Hammer	300	0
+weapons	0xECBB	Pickaxe+3	Hammer	300	0
+weapons	0xECBC	Pickaxe+4	Hammer	300	0
+weapons	0xECBD	Pickaxe+5	Hammer	300	0
+weapons	0xECBE	Pickaxe+6	Hammer	300	0
+weapons	0xECBF	Pickaxe+7	Hammer	300	0
+weapons	0xECC0	Pickaxe+8	Hammer	300	0
+weapons	0xECC1	Pickaxe+9	Hammer	300	0
+weapons	0xECC2	Pickaxe+10	Hammer	300	0
+weapons	0xECC3	Quality Pickaxe+1	Hammer	300	0
+weapons	0xECC4	Quality Pickaxe+2	Hammer	300	0
+weapons	0xECC5	Quality Pickaxe+3	Hammer	300	0
+weapons	0xECC6	Quality Pickaxe+4	Hammer	300	0
+weapons	0xECC7	Quality Pickaxe+5	Hammer	300	0
+weapons	0xECCD	Mercury Pickaxe+1	Hammer	300	0
+weapons	0xECCE	Mercury Pickaxe+2	Hammer	300	0
+weapons	0xECCF	Mercury Pickaxe+3	Hammer	300	0
+weapons	0xECD0	Mercury Pickaxe+4	Hammer	300	0
+weapons	0xECD1	Mercury Pickaxe+5	Hammer	300	0
+weapons	0xECD7	Sharp Pickaxe+1	Hammer	300	0
+weapons	0xECD8	Sharp Pickaxe+2	Hammer	300	0
+weapons	0xECD9	Sharp Pickaxe+3	Hammer	300	0
+weapons	0xECDA	Sharp Pickaxe+4	Hammer	300	0
+weapons	0xECDB	Sharp Pickaxe+5	Hammer	300	0
+weapons	0xECE1	Tearing Pickaxe+1	Hammer	300	0
+weapons	0xECE2	Tearing Pickaxe+2	Hammer	300	0
+weapons	0xECE3	Tearing Pickaxe+3	Hammer	300	0
+weapons	0xECE4	Tearing Pickaxe+4	Hammer	300	0
+weapons	0xECE5	Tearing Pickaxe+5	Hammer	300	0
+weapons	0xECEB	Moon Pickaxe+1	Hammer	300	0
+weapons	0xECEC	Moon Pickaxe+2	Hammer	300	0
+weapons	0xECED	Moon Pickaxe+3	Hammer	300	0
+weapons	0xECEE	Moon Pickaxe+4	Hammer	300	0
+weapons	0xECEF	Moon Pickaxe+5	Hammer	300	0
+weapons	0xED1C	Meat Cleaver	Large Hammer	400	0
+weapons	0xED1D	Meat Cleaver	Experimental		1
+weapons	0xED1E	Meat Cleaver	Experimental		1
+weapons	0xED1F	Meat Cleaver	Experimental		1
+weapons	0xED20	Meat Cleaver	Experimental		1
+weapons	0xED21	Meat Cleaver	Experimental		1
+weapons	0xED22	Meat Cleaver	Experimental		1
+weapons	0xED23	Meat Cleaver	Experimental		1
+weapons	0xED80	Torch    (Non-functioning)	Large Hammer		0
+weapons	0x10D88	_?_?i?    (Ghost Club)	Experimental		1
+weapons	0x11170	Short Spear	Spear	180	0
+weapons	0x11171	Short Spear+1	Spear	180	0
+weapons	0x11172	Short Spear+2	Spear	180	0
+weapons	0x11173	Short Spear+3	Spear	180	0
+weapons	0x11174	Short Spear+4	Spear	180	0
+weapons	0x11175	Short Spear+5	Spear	180	0
+weapons	0x11176	Short Spear+6	Spear	180	0
+weapons	0x11177	Short Spear+7	Spear	180	0
+weapons	0x11178	Short Spear+8	Spear	180	0
+weapons	0x11179	Short Spear+9	Spear	180	0
+weapons	0x1117A	Short Spear+10	Spear	180	0
+weapons	0x1117B	Quality Short Spear+1	Spear	180	0
+weapons	0x1117C	Quality Short Spear+2	Spear	180	0
+weapons	0x1117D	Quality Short Spear+3	Spear	180	0
+weapons	0x1117E	Quality Short Spear+4	Spear	180	0
+weapons	0x1117F	Quality Short Spear+5	Spear	180	0
+weapons	0x11185	Mercury Short Spear+1	Spear	180	0
+weapons	0x11186	Mercury Short Spear+2	Spear	180	0
+weapons	0x11187	Mercury Short Spear+3	Spear	180	0
+weapons	0x11188	Mercury Short Spear+4	Spear	180	0
+weapons	0x11189	Mercury Short Spear+5	Spear	180	0
+weapons	0x1118F	Sharp Short Spear+1	Spear	180	0
+weapons	0x11190	Sharp Short Spear+2	Spear	180	0
+weapons	0x11191	Sharp Short Spear+3	Spear	180	0
+weapons	0x11192	Sharp Short Spear+4	Spear	180	0
+weapons	0x11193	Sharp Short Spear+5	Spear	180	0
+weapons	0x11199	Fatal Short Spear+1	Spear	180	0
+weapons	0x1119A	Fatal Short Spear+2	Spear	180	0
+weapons	0x1119B	Fatal Short Spear+3	Spear	180	0
+weapons	0x1119C	Fatal Short Spear+4	Spear	180	0
+weapons	0x1119D	Fatal Short Spear+5	Spear	180	0
+weapons	0x111A3	Moon Short Spear+1	Spear	180	0
+weapons	0x111A4	Moon Short Spear+2	Spear	180	0
+weapons	0x111A5	Moon Short Spear+3	Spear	180	0
+weapons	0x111A6	Moon Short Spear+4	Spear	180	0
+weapons	0x111A7	Moon Short Spear+5	Spear	180	0
+weapons	0x111D4	Winged Spear	Spear	160	0
+weapons	0x111D5	Winged Spear+1	Spear	160	0
+weapons	0x111D6	Winged Spear+2	Spear	160	0
+weapons	0x111D7	Winged Spear+3	Spear	160	0
+weapons	0x111D8	Winged Spear+4	Spear	160	0
+weapons	0x111D9	Winged Spear+5	Spear	160	0
+weapons	0x111DA	Winged Spear+6	Spear	160	0
+weapons	0x111DB	Winged Spear+7	Spear	160	0
+weapons	0x111DC	Winged Spear+8	Spear	160	0
+weapons	0x111DD	Winged Spear+9	Spear	160	0
+weapons	0x111DE	Winged Spear+10	Spear	160	0
+weapons	0x111DF	Quality Winged Spear+1	Spear	160	0
+weapons	0x111E0	Quality Winged Spear+2	Spear	160	0
+weapons	0x111E1	Quality Winged Spear+3	Spear	160	0
+weapons	0x111E2	Quality Winged Spear+4	Spear	160	0
+weapons	0x111E3	Quality Winged Spear+5	Spear	160	0
+weapons	0x111E9	Mercury Winged Spear+1	Spear	160	0
+weapons	0x111EA	Mercury Winged Spear+2	Spear	160	0
+weapons	0x111EB	Mercury Winged Spear+3	Spear	160	0
+weapons	0x111EC	Mercury Winged Spear+4	Spear	160	0
+weapons	0x111ED	Mercury Winged Spear+5	Spear	160	0
+weapons	0x111F3	Sharp Winged Spear+1	Spear	160	0
+weapons	0x111F4	Sharp Winged Spear+2	Spear	160	0
+weapons	0x111F5	Sharp Winged Spear+3	Spear	160	0
+weapons	0x111F6	Sharp Winged Spear+4	Spear	160	0
+weapons	0x111F7	Sharp Winged Spear+5	Spear	160	0
+weapons	0x111FD	Fatal Winged Spear+1	Spear	160	0
+weapons	0x111FE	Fatal Winged Spear+2	Spear	160	0
+weapons	0x111FF	Fatal Winged Spear+3	Spear	160	0
+weapons	0x11200	Fatal Winged Spear+4	Spear	160	0
+weapons	0x11201	Fatal Winged Spear+5	Spear	160	0
+weapons	0x11207	Moon Winged Spear+1	Spear	160	0
+weapons	0x11208	Moon Winged Spear+2	Spear	160	0
+weapons	0x11209	Moon Winged Spear+3	Spear	160	0
+weapons	0x1120A	Moon Winged Spear+4	Spear	160	0
+weapons	0x1120B	Moon Winged Spear+5	Spear	160	0
+weapons	0x1129C	Istarelle	Spear	800	0
+weapons	0x1129D	Istarelle+1	Spear	800	0
+weapons	0x1129E	Istarelle+2	Spear	800	0
+weapons	0x1129F	Istarelle+3	Spear	800	0
+weapons	0x112A0	Istarelle+4	Spear	800	0
+weapons	0x112A1	Istarelle+5	Spear	800	0
+weapons	0x11300	Scraping Spear	Spear	400	0
+weapons	0x11301	Scraping Spear	Experimental		1
+weapons	0x11302	Scraping Spear	Experimental		1
+weapons	0x11303	Scraping Spear	Experimental		1
+weapons	0x11304	Scraping Spear	Experimental		1
+weapons	0x11305	Scraping Spear	Experimental		1
+weapons	0x13498	_?_?i?    (Ghost Spear)	Experimental		1
+weapons	0x13880	War Scythe	Pole	130	0
+weapons	0x13881	War Scythe+1	Pole	130	0
+weapons	0x13882	War Scythe+2	Pole	130	0
+weapons	0x13883	War Scythe+3	Pole	130	0
+weapons	0x13884	War Scythe+4	Pole	130	0
+weapons	0x13885	War Scythe+5	Pole	130	0
+weapons	0x13886	War Scythe+6	Pole	130	0
+weapons	0x13887	War Scythe+7	Pole	130	0
+weapons	0x13888	War Scythe+8	Pole	130	0
+weapons	0x13889	War Scythe+9	Pole	130	0
+weapons	0x1388A	War Scythe+10	Pole	130	0
+weapons	0x1388B	Sharp War Scythe+1	Pole	130	0
+weapons	0x1388C	Sharp War Scythe+2	Pole	130	0
+weapons	0x1388D	Sharp War Scythe+3	Pole	130	0
+weapons	0x1388E	Sharp War Scythe+4	Pole	130	0
+weapons	0x1388F	Sharp War Scythe+5	Pole	130	0
+weapons	0x13895	Tearing War Scythe+1	Pole	130	0
+weapons	0x13896	Tearing War Scythe+2	Pole	130	0
+weapons	0x13897	Tearing War Scythe+3	Pole	130	0
+weapons	0x13898	Tearing War Scythe+4	Pole	130	0
+weapons	0x13899	Tearing War Scythe+5	Pole	130	0
+weapons	0x1389F	Crescent War Scythe+1	Experimental		1
+weapons	0x138A0	Crescent War Scythe+2	Experimental		1
+weapons	0x138A1	Crescent War Scythe+3	Experimental		1
+weapons	0x138A2	Crescent War Scythe+4	Experimental		1
+weapons	0x138A3	Crescent War Scythe+5	Experimental		1
+weapons	0x138A9	Quality War Scythe+1	Pole	130	0
+weapons	0x138AA	Quality War Scythe+2	Pole	130	0
+weapons	0x138AB	Quality War Scythe+3	Pole	130	0
+weapons	0x138AC	Quality War Scythe+4	Pole	130	0
+weapons	0x138AD	Quality War Scythe+5	Pole	130	0
+weapons	0x138B3	Mercury War Scythe+1	Pole	130	0
+weapons	0x138B4	Mercury War Scythe+2	Pole	130	0
+weapons	0x138B5	Mercury War Scythe+3	Pole	130	0
+weapons	0x138B6	Mercury War Scythe+4	Pole	130	0
+weapons	0x138B7	Mercury War Scythe+5	Pole	130	0
+weapons	0x138BD	Moon War Scythe+1	Pole	130	0
+weapons	0x138BE	Moon War Scythe+2	Pole	130	0
+weapons	0x138BF	Moon War Scythe+3	Pole	130	0
+weapons	0x138C0	Moon War Scythe+4	Pole	130	0
+weapons	0x138C1	Moon War Scythe+5	Pole	130	0
+weapons	0x138E4	Mirdan Hammer	Pole	200	0
+weapons	0x138E5	Mirdan Hammer+1	Pole	200	0
+weapons	0x138E6	Mirdan Hammer+2	Pole	200	0
+weapons	0x138E7	Mirdan Hammer+3	Pole	200	0
+weapons	0x138E8	Mirdan Hammer+4	Pole	200	0
+weapons	0x138E9	Mirdan Hammer+5	Pole	200	0
+weapons	0x138EA	Mirdan Hammer+6	Pole	200	0
+weapons	0x138EB	Mirdan Hammer+7	Pole	200	0
+weapons	0x138EC	Mirdan Hammer+8	Pole	200	0
+weapons	0x138ED	Mirdan Hammer+9	Pole	200	0
+weapons	0x138EE	Mirdan Hammer+10	Pole	200	0
+weapons	0x138EF	Quality Mirdan Hammer+1	Pole	200	0
+weapons	0x138F0	Quality Mirdan Hammer+2	Pole	200	0
+weapons	0x138F1	Quality Mirdan Hammer+3	Pole	200	0
+weapons	0x138F2	Quality Mirdan Hammer+4	Pole	200	0
+weapons	0x138F3	Quality Mirdan Hammer+5	Pole	200	0
+weapons	0x138F9	Mercury Mirdan Hammer+1	Experimental		1
+weapons	0x138FA	Mercury Mirdan Hammer+2	Experimental		1
+weapons	0x138FB	Mercury Mirdan Hammer+3	Experimental		1
+weapons	0x13903	Crushing Mirdan Hammer+1	Pole	200	0
+weapons	0x13904	Crushing Mirdan Hammer+2	Pole	200	0
+weapons	0x13905	Crushing Mirdan Hammer+3	Pole	200	0
+weapons	0x13906	Crushing Mirdan Hammer+4	Pole	200	0
+weapons	0x13907	Crushing Mirdan Hammer+5	Pole	200	0
+weapons	0x1390D	Dragon Mirdan Hammer+1	Pole	200	0
+weapons	0x1390E	Dragon Mirdan Hammer+2	Pole	200	0
+weapons	0x1390F	Dragon Mirdan Hammer+3	Pole	200	0
+weapons	0x13910	Dragon Mirdan Hammer+4	Pole	200	0
+weapons	0x13911	Dragon Mirdan Hammer+5	Pole	200	0
+weapons	0x13917	Moon Mirdan Hammer+1	Pole	200	0
+weapons	0x13918	Moon Mirdan Hammer+2	Pole	200	0
+weapons	0x13919	Moon Mirdan Hammer+3	Pole	200	0
+weapons	0x1391A	Moon Mirdan Hammer+4	Pole	200	0
+weapons	0x1391B	Moon Mirdan Hammer+5	Pole	200	0
+weapons	0x13921	Blessed Mirdan Hammer+1	Pole	200	0
+weapons	0x13922	Blessed Mirdan Hammer+2	Pole	200	0
+weapons	0x13923	Blessed Mirdan Hammer+3	Pole	200	0
+weapons	0x13924	Blessed Mirdan Hammer+4	Pole	200	0
+weapons	0x13925	Blessed Mirdan Hammer+5	Pole	200	0
+weapons	0x13948	Halberd	Pole	200	0
+weapons	0x13949	Halberd+1	Pole	200	0
+weapons	0x1394A	Halberd+2	Pole	200	0
+weapons	0x1394B	Halberd+3	Pole	200	0
+weapons	0x1394C	Halberd+4	Pole	200	0
+weapons	0x1394D	Halberd+5	Pole	200	0
+weapons	0x1394E	Halberd+6	Pole	200	0
+weapons	0x1394F	Halberd+7	Pole	200	0
+weapons	0x13950	Halberd+8	Pole	200	0
+weapons	0x13951	Halberd+9	Pole	200	0
+weapons	0x13952	Halberd+10	Pole	200	0
+weapons	0x13953	Quality Halberd+1	Pole	200	0
+weapons	0x13954	Quality Halberd+2	Pole	200	0
+weapons	0x13955	Quality Halberd+3	Pole	200	0
+weapons	0x13956	Quality Halberd+4	Pole	200	0
+weapons	0x13957	Quality Halberd+5	Pole	200	0
+weapons	0x1395D	Mercury Halberd+1	Experimental		1
+weapons	0x1395E	Mercury Halberd+2	Experimental		1
+weapons	0x1395F	Mercury Halberd+3	Experimental		1
+weapons	0x13967	Crushing Halberd+1	Pole	200	0
+weapons	0x13968	Crushing Halberd+2	Pole	200	0
+weapons	0x13969	Crushing Halberd+3	Pole	200	0
+weapons	0x1396A	Crushing Halberd+4	Pole	200	0
+weapons	0x1396B	Crushing Halberd+5	Pole	200	0
+weapons	0x13971	Dragon Halberd+1	Pole	200	0
+weapons	0x13972	Dragon Halberd+2	Pole	200	0
+weapons	0x13973	Dragon Halberd+3	Pole	200	0
+weapons	0x13974	Dragon Halberd+4	Pole	200	0
+weapons	0x13975	Dragon Halberd+5	Pole	200	0
+weapons	0x1397B	Moon Halberd+1	Pole	200	0
+weapons	0x1397C	Moon Halberd+2	Pole	200	0
+weapons	0x1397D	Moon Halberd+3	Pole	200	0
+weapons	0x1397E	Moon Halberd+4	Pole	200	0
+weapons	0x1397F	Moon Halberd+5	Pole	200	0
+weapons	0x13985	Blessed Halberd+1	Pole	200	0
+weapons	0x13986	Blessed Halberd+2	Pole	200	0
+weapons	0x13987	Blessed Halberd+3	Pole	200	0
+weapons	0x13988	Blessed Halberd+4	Pole	200	0
+weapons	0x13989	Blessed Halberd+5	Pole	200	0
+weapons	0x139AC	Phosphorescent Pole	Pole	250	0
+weapons	0x139AD	Phosphorescent Pole+1	Pole	250	0
+weapons	0x139AE	Phosphorescent Pole+2	Pole	250	0
+weapons	0x139AF	Phosphorescent Pole+3	Pole	250	0
+weapons	0x139B0	Phosphorescent Pole+4	Pole	250	0
+weapons	0x139B1	Phosphorescent Pole+5	Pole	250	0
+weapons	0x15BA8	_?_?z?r?    (Ghost Spear #2)	Experimental		1
+weapons	0x15F90	Wooden Catalyst	Catalyst	30	0
+weapons	0x15F91	Crushing Wooden Catalyst+1	Experimental	30	1
+weapons	0x15F92	Crushing Wooden Catalyst+2	Experimental	30	1
+weapons	0x15F93	Crushing Wooden Catalyst+3	Experimental	30	1
+weapons	0x15F94	Crushing Wooden Catalyst+4	Experimental	30	1
+weapons	0x15F95	Crushing Wooden Catalyst+5	Experimental	30	1
+weapons	0x15FF4	Silver Catalyst	Catalyst	40	0
+weapons	0x15FF5	Crushing Silver Catalyst+1	Experimental	40	1
+weapons	0x15FF6	Crushing Silver Catalyst+2	Experimental	40	1
+weapons	0x15FF7	Crushing Silver Catalyst+3	Experimental	40	1
+weapons	0x15FF8	Crushing Silver Catalyst+4	Experimental	40	1
+weapons	0x15FF9	Crushing Silver Catalyst+5	Experimental	40	1
+weapons	0x16058	Insanity Catalyst	Catalyst	400	0
+weapons	0x16059	Insanity Catalyst	Experimental	400	1
+weapons	0x16120	Talisman of God	Talisman	300	0
+weapons	0x16184	Talisman of Beasts	Talisman	150	0
+weapons	0x182B8	_?_???Z?    (Ghost Catalyst)	Experimental		1
+weapons	0x186A0	Iron Knuckles	Fist	300	0
+weapons	0x186A1	Crushing Iron Knuckles+1	Fist	300	0
+weapons	0x186A2	Crushing Iron Knuckles+2	Fist	300	0
+weapons	0x186A3	Crushing Iron Knuckles+3	Fist	300	0
+weapons	0x186A4	Crushing Iron Knuckles+4	Fist	300	0
+weapons	0x186A5	Crushing Iron Knuckles+5	Fist	300	0
+weapons	0x186AB	Blessed Iron Knuckles+1	Fist	300	0
+weapons	0x186AC	Blessed Iron Knuckles+2	Fist	300	0
+weapons	0x186AD	Blessed Iron Knuckles+3	Fist	300	0
+weapons	0x186AE	Blessed Iron Knuckles+4	Fist	300	0
+weapons	0x186AF	Blessed Iron Knuckles+5	Fist	300	0
+weapons	0x186B5	Iron Knuckles+1	Fist	300	0
+weapons	0x186B6	Iron Knuckles+2	Fist	300	0
+weapons	0x186B7	Iron Knuckles+3	Fist	300	0
+weapons	0x186B8	Iron Knuckles+4	Fist	300	0
+weapons	0x186B9	Iron Knuckles+5	Fist	300	0
+weapons	0x186BA	Iron Knuckles+6	Fist	300	0
+weapons	0x186BB	Iron Knuckles+7	Fist	300	0
+weapons	0x186BC	Iron Knuckles+8	Fist	300	0
+weapons	0x186BD	Iron Knuckles+9	Fist	300	0
+weapons	0x186BE	Iron Knuckles+10	Fist	300	0
+weapons	0x186BF	Quality Iron Knuckles+1	Fist	300	0
+weapons	0x186C0	Quality Iron Knuckles+2	Fist	300	0
+weapons	0x186C1	Quality Iron Knuckles+3	Fist	300	0
+weapons	0x186C2	Quality Iron Knuckles+4	Fist	300	0
+weapons	0x186C3	Quality Iron Knuckles+5	Fist	300	0
+weapons	0x186C9	Dragon Iron Knuckles+1	Fist	300	0
+weapons	0x186CA	Dragon Iron Knuckles+2	Fist	300	0
+weapons	0x186CB	Dragon Iron Knuckles+3	Fist	300	0
+weapons	0x186CC	Dragon Iron Knuckles+4	Fist	300	0
+weapons	0x186CD	Dragon Iron Knuckles+5	Fist	300	0
+weapons	0x186D3	Moon Iron Knuckles+1	Fist	300	0
+weapons	0x186D4	Moon Iron Knuckles+2	Fist	300	0
+weapons	0x186D5	Moon Iron Knuckles+3	Fist	300	0
+weapons	0x186D6	Moon Iron Knuckles+4	Fist	300	0
+weapons	0x186D7	Moon Iron Knuckles+5	Fist	300	0
+weapons	0x18704	Claws	Fist	130	0
+weapons	0x18705	Claws+1	Fist	130	0
+weapons	0x18706	Claws+2	Fist	130	0
+weapons	0x18707	Claws+3	Fist	130	0
+weapons	0x18708	Claws+4	Fist	130	0
+weapons	0x18709	Claws+5	Fist	130	0
+weapons	0x1870A	Claws+6	Fist	130	0
+weapons	0x1870B	Claws+7	Fist	130	0
+weapons	0x1870C	Claws+8	Fist	130	0
+weapons	0x1870D	Claws+9	Fist	130	0
+weapons	0x1870E	Claws+10	Fist	130	0
+weapons	0x1870F	Sharp Claws+1	Fist	130	0
+weapons	0x18710	Sharp Claws+2	Fist	130	0
+weapons	0x18711	Sharp Claws+3	Fist	130	0
+weapons	0x18712	Sharp Claws+4	Fist	130	0
+weapons	0x18713	Sharp Claws+5	Fist	130	0
+weapons	0x18719	Tearing Claws+1	Fist	130	0
+weapons	0x1871A	Tearing Claws+2	Fist	130	0
+weapons	0x1871B	Tearing Claws+3	Fist	130	0
+weapons	0x1871C	Tearing Claws+4	Fist	130	0
+weapons	0x1871D	Tearing Claws+5	Fist	130	0
+weapons	0x18723	Crescent Claws+1	Experimental		1
+weapons	0x18724	Crescent Claws+2	Experimental		1
+weapons	0x18725	Crescent Claws+3	Experimental		1
+weapons	0x18726	Crescent Claws+4	Experimental		1
+weapons	0x18727	Crescent Claws+5	Experimental		1
+weapons	0x1872D	Quality Claws+1	Fist	130	0
+weapons	0x1872E	Quality Claws+2	Fist	130	0
+weapons	0x1872F	Quality Claws+3	Fist	130	0
+weapons	0x18730	Quality Claws+4	Fist	130	0
+weapons	0x18731	Quality Claws+5	Fist	130	0
+weapons	0x18737	Mercury Claws+1	Fist	130	0
+weapons	0x18738	Mercury Claws+2	Fist	130	0
+weapons	0x18739	Mercury Claws+3	Fist	130	0
+weapons	0x1873A	Mercury Claws+4	Fist	130	0
+weapons	0x1873B	Mercury Claws+5	Fist	130	0
+weapons	0x18741	Moon Claws+1	Fist	130	0
+weapons	0x18742	Moon Claws+2	Fist	130	0
+weapons	0x18743	Moon Claws+3	Fist	130	0
+weapons	0x18744	Moon Claws+4	Fist	130	0
+weapons	0x18745	Moon Claws+5	Fist	130	0
+weapons	0x18768	Hands of God	Fist	727	0
+weapons	0x18769	Hands of God+1	Fist	727	0
+weapons	0x1876A	Hands of God+2	Fist	727	0
+weapons	0x1876B	Hands of God+3	Fist	727	0
+weapons	0x1876C	Hands of God+4	Fist	727	0
+weapons	0x1876D	Hands of God+5	Fist	727	0
+weapons	0x187CC	Bare Fists	Fist		0
+weapons	0x1A9C8	_?_?b?    (Ghost fists)	Experimental		1
+weapons	0x1FBD0	Short Bow	Bow	100	0
+weapons	0x1FBD1	Short Bow+1	Bow	100	0
+weapons	0x1FBD2	Short Bow+2	Bow	100	0
+weapons	0x1FBD3	Short Bow+3	Bow	100	0
+weapons	0x1FBD4	Short Bow+4	Bow	100	0
+weapons	0x1FBD5	Short Bow+5	Bow	100	0
+weapons	0x1FBD6	Short Bow+6	Bow	100	0
+weapons	0x1FBD7	Short Bow+7	Bow	100	0
+weapons	0x1FBD8	Short Bow+8	Bow	100	0
+weapons	0x1FBD9	Short Bow+9	Bow	100	0
+weapons	0x1FBDA	Short Bow+10	Bow	100	0
+weapons	0x1FBDB	R[??0nShort Bow+1	Experimental		1
+weapons	0x1FBDC	R[??0nShort Bow+2	Experimental		1
+weapons	0x1FBDD	R[??0nShort Bow+3	Experimental		1
+weapons	0x1FBDE	R[??0nShort Bow+4	Experimental		1
+weapons	0x1FBDF	R[??0nShort Bow+5	Experimental		1
+weapons	0x1FBE5	Sticky Short Bow+1	Bow	100	0
+weapons	0x1FBE6	Sticky Short Bow+2	Bow	100	0
+weapons	0x1FBE7	Sticky Short Bow+3	Bow	100	0
+weapons	0x1FBE8	Sticky Short Bow+4	Bow	100	0
+weapons	0x1FBE9	Sticky Short Bow+5	Bow	100	0
+weapons	0x1FBEF	Quality Short Bow+1	Bow	100	0
+weapons	0x1FBF0	Quality Short Bow+2	Bow	100	0
+weapons	0x1FBF1	Quality Short Bow+3	Bow	100	0
+weapons	0x1FBF2	Quality Short Bow+4	Bow	100	0
+weapons	0x1FBF3	Quality Short Bow+5	Bow	100	0
+weapons	0x1FC34	Compound Short Bow	Bow	100	0
+weapons	0x1FC35	Compound Short Bow+1	Bow	100	0
+weapons	0x1FC36	Compound Short Bow+2	Bow	100	0
+weapons	0x1FC37	Compound Short Bow+3	Bow	100	0
+weapons	0x1FC38	Compound Short Bow+4	Bow	100	0
+weapons	0x1FC39	Compound Short Bow+5	Bow	100	0
+weapons	0x1FC3A	Compound Short Bow+6	Bow	100	0
+weapons	0x1FC3B	Compound Short Bow+7	Bow	100	0
+weapons	0x1FC3C	Compound Short Bow+8	Bow	100	0
+weapons	0x1FC3D	Compound Short Bow+9	Bow	100	0
+weapons	0x1FC3E	Compound Short Bow+10	Bow	100	0
+weapons	0x1FC3F	R[??0nCompound Short Bow+1	Experimental		1
+weapons	0x1FC40	R[??0nCompound Short Bow+2	Experimental		1
+weapons	0x1FC41	R[??0nCompound Short Bow+3	Experimental		1
+weapons	0x1FC42	R[??0nCompound Short Bow+4	Experimental		1
+weapons	0x1FC43	R[??0nCompound Short Bow+5	Experimental		1
+weapons	0x1FC49	Sticky Compound Short Bow+1	Bow	100	0
+weapons	0x1FC4A	Sticky Compound Short Bow+2	Bow	100	0
+weapons	0x1FC4B	Sticky Compound Short Bow+3	Bow	100	0
+weapons	0x1FC4C	Sticky Compound Short Bow+4	Bow	100	0
+weapons	0x1FC4D	Sticky Compound Short Bow+5	Bow	100	0
+weapons	0x1FC53	Quality Compound Short Bow+1	Bow	100	0
+weapons	0x1FC54	Quality Compound Short Bow+2	Bow	100	0
+weapons	0x1FC55	Quality Compound Short Bow+3	Bow	100	0
+weapons	0x1FC56	Quality Compound Short Bow+4	Bow	100	0
+weapons	0x1FC57	Quality Compound Short Bow+5	Bow	100	0
+weapons	0x1FC98	Long Bow	Bow	100	0
+weapons	0x1FC99	Long Bow+1	Bow	100	0
+weapons	0x1FC9A	Long Bow+2	Bow	100	0
+weapons	0x1FC9B	Long Bow+3	Bow	100	0
+weapons	0x1FC9C	Long Bow+4	Bow	100	0
+weapons	0x1FC9D	Long Bow+5	Bow	100	0
+weapons	0x1FC9E	Long Bow+6	Bow	100	0
+weapons	0x1FC9F	Long Bow+7	Bow	100	0
+weapons	0x1FCA0	Long Bow+8	Bow	100	0
+weapons	0x1FCA1	Long Bow+9	Bow	100	0
+weapons	0x1FCA2	Long Bow+10	Bow	100	0
+weapons	0x1FCA3	R[??0nLong Bow+1	Experimental		1
+weapons	0x1FCA4	R[??0nLong Bow+2	Experimental		1
+weapons	0x1FCA5	R[??0nLong Bow+3	Experimental		1
+weapons	0x1FCA6	R[??0nLong Bow+4	Experimental		1
+weapons	0x1FCA7	R[??0nLong Bow+5	Experimental		1
+weapons	0x1FCAD	Sticky Long Bow+1	Bow	100	0
+weapons	0x1FCAE	Sticky Long Bow+2	Bow	100	0
+weapons	0x1FCAF	Sticky Long Bow+3	Bow	100	0
+weapons	0x1FCB0	Sticky Long Bow+4	Bow	100	0
+weapons	0x1FCB1	Sticky Long Bow+5	Bow	100	0
+weapons	0x1FCB7	Quality Long Bow+1	Bow	100	0
+weapons	0x1FCB8	Quality Long Bow+2	Bow	100	0
+weapons	0x1FCB9	Quality Long Bow+3	Bow	100	0
+weapons	0x1FCBA	Quality Long Bow+4	Bow	100	0
+weapons	0x1FCBB	Quality Long Bow+5	Bow	100	0
+weapons	0x1FCFC	Compound Long Bow	Bow	100	0
+weapons	0x1FCFD	Compound Long Bow+1	Bow	100	0
+weapons	0x1FCFE	Compound Long Bow+2	Bow	100	0
+weapons	0x1FCFF	Compound Long Bow+3	Bow	100	0
+weapons	0x1FD00	Compound Long Bow+4	Bow	100	0
+weapons	0x1FD01	Compound Long Bow+5	Bow	100	0
+weapons	0x1FD02	Compound Long Bow+6	Bow	100	0
+weapons	0x1FD03	Compound Long Bow+7	Bow	100	0
+weapons	0x1FD04	Compound Long Bow+8	Bow	100	0
+weapons	0x1FD05	Compound Long Bow+9	Bow	100	0
+weapons	0x1FD06	Compound Long Bow+10	Bow	100	0
+weapons	0x1FD07	R[??0nCompound Long Bow+1	Experimental		1
+weapons	0x1FD08	R[??0nCompound Long Bow+2	Experimental		1
+weapons	0x1FD09	R[??0nCompound Long Bow+3	Experimental		1
+weapons	0x1FD0A	R[??0nCompound Long Bow+4	Experimental		1
+weapons	0x1FD0B	R[??0nCompound Long Bow+5	Experimental		1
+weapons	0x1FD11	Sticky Compound Long Bow+1	Bow	100	0
+weapons	0x1FD12	Sticky Compound Long Bow+2	Bow	100	0
+weapons	0x1FD13	Sticky Compound Long Bow+3	Bow	100	0
+weapons	0x1FD14	Sticky Compound Long Bow+4	Bow	100	0
+weapons	0x1FD15	Sticky Compound Long Bow+5	Bow	100	0
+weapons	0x1FD1B	Quality Compound Long Bow+1	Bow	100	0
+weapons	0x1FD1C	Quality Compound Long Bow+2	Bow	100	0
+weapons	0x1FD1D	Quality Compound Long Bow+3	Bow	100	0
+weapons	0x1FD1E	Quality Compound Long Bow+4	Bow	100	0
+weapons	0x1FD1F	Quality Compound Long Bow+5	Bow	100	0
+weapons	0x1FD60	White Bow	Bow	300	0
+weapons	0x1FD61	White Bow+1	Bow	300	0
+weapons	0x1FD62	White Bow+2	Bow	300	0
+weapons	0x1FD63	White Bow+3	Bow	300	0
+weapons	0x1FD64	White Bow+4	Bow	300	0
+weapons	0x1FD65	White Bow+5	Bow	300	0
+weapons	0x1FDC4	Lava Bow	Bow	400	0
+weapons	0x1FDC5	Lava Bow	Experimental		1
+weapons	0x1FDC6	Lava Bow	Experimental		1
+weapons	0x1FDC7	Lava Bow	Experimental		1
+weapons	0x21EF8	_?_?_    (Ghost Short Bow)	Experimental		1
+weapons	0x222E0	Light Crossbow	Crossbow	150	0
+weapons	0x22344	Heavy Crossbow	Crossbow	150	0
+weapons	0x223A8	Gargoyle Crossbow	Crossbow	150	0
+weapons	0x24608	_?_?_)    (Ghost Crossbow)	Experimental		1
+weapons	0x249F0	Buckler	Parry Shield	200	0
+weapons	0x249F1	Buckler+1	Parry Shield	200	0
+weapons	0x249F2	Buckler+2	Parry Shield	200	0
+weapons	0x249F3	Buckler+3	Parry Shield	200	0
+weapons	0x249F4	Buckler+4	Parry Shield	200	0
+weapons	0x249F5	Buckler+5	Parry Shield	200	0
+weapons	0x249F6	Buckler+6	Parry Shield	200	0
+weapons	0x249F7	Buckler+7	Parry Shield	200	0
+weapons	0x249F8	Buckler+8	Parry Shield	200	0
+weapons	0x249F9	Buckler+9	Parry Shield	200	0
+weapons	0x249FA	Buckler+10	Parry Shield	200	0
+weapons	0x249FB	0o0X0OBuckler+1	Experimental		1
+weapons	0x249FC	0o0X0OBuckler+2	Experimental		1
+weapons	0x249FD	0o0X0OBuckler+3	Experimental		1
+weapons	0x249FE	0o0X0OBuckler+4	Experimental		1
+weapons	0x249FF	0o0X0OBuckler+5	Experimental		1
+weapons	0x24A05	Dark Buckler+1	Parry Shield	200	0
+weapons	0x24A06	Dark Buckler+2	Parry Shield	200	0
+weapons	0x24A07	Dark Buckler+3	Parry Shield	200	0
+weapons	0x24A08	Dark Buckler+4	Parry Shield	200	0
+weapons	0x24A09	Dark Buckler+5	Parry Shield	200	0
+weapons	0x24A54	Wooden Shield	Parry Shield	110	0
+weapons	0x24AB8	Kite Shield	Parry Shield	220	0
+weapons	0x24AB9	Kite Shield+1	Parry Shield	220	0
+weapons	0x24ABA	Kite Shield+2	Parry Shield	220	0
+weapons	0x24ABB	Kite Shield+3	Parry Shield	220	0
+weapons	0x24ABC	Kite Shield+4	Parry Shield	220	0
+weapons	0x24ABD	Kite Shield+5	Parry Shield	220	0
+weapons	0x24ABE	Kite Shield+6	Parry Shield	220	0
+weapons	0x24ABF	Kite Shield+7	Parry Shield	220	0
+weapons	0x24AC0	Kite Shield+8	Parry Shield	220	0
+weapons	0x24AC1	Kite Shield+9	Parry Shield	220	0
+weapons	0x24AC2	Kite Shield+10	Parry Shield	220	0
+weapons	0x24AC3	0o0X0OKite Shield+1	Experimental		1
+weapons	0x24AC4	0o0X0OKite Shield+2	Experimental		1
+weapons	0x24AC5	0o0X0OKite Shield+3	Experimental		1
+weapons	0x24AC6	0o0X0OKite Shield+4	Experimental		1
+weapons	0x24AC7	0o0X0OKite Shield+5	Experimental		1
+weapons	0x24ACD	Dark Kite Shield+1	Parry Shield	220	0
+weapons	0x24ACE	Dark Kite Shield+2	Parry Shield	220	0
+weapons	0x24ACF	Dark Kite Shield+3	Parry Shield	220	0
+weapons	0x24AD0	Dark Kite Shield+4	Parry Shield	220	0
+weapons	0x24AD1	Dark Kite Shield+5	Parry Shield	220	0
+weapons	0x24B1C	Heater Shield	Parry Shield	200	0
+weapons	0x24B1D	Heater Shield+1	Parry Shield	200	0
+weapons	0x24B1E	Heater Shield+2	Parry Shield	200	0
+weapons	0x24B1F	Heater Shield+3	Parry Shield	200	0
+weapons	0x24B20	Heater Shield+4	Parry Shield	200	0
+weapons	0x24B21	Heater Shield+5	Parry Shield	200	0
+weapons	0x24B22	Heater Shield+6	Parry Shield	200	0
+weapons	0x24B23	Heater Shield+7	Parry Shield	200	0
+weapons	0x24B24	Heater Shield+8	Parry Shield	200	0
+weapons	0x24B25	Heater Shield+9	Parry Shield	200	0
+weapons	0x24B26	Heater Shield+10	Parry Shield	200	0
+weapons	0x24B27	0o0X0OHeater Shield+1	Experimental		1
+weapons	0x24B28	0o0X0OHeater Shield+2	Experimental		1
+weapons	0x24B29	0o0X0OHeater Shield+3	Experimental		1
+weapons	0x24B2A	0o0X0OHeater Shield+4	Experimental		1
+weapons	0x24B2B	0o0X0OHeater Shield+5	Experimental		1
+weapons	0x24B31	Dark Heater Shield+1	Parry Shield	200	0
+weapons	0x24B32	Dark Heater Shield+2	Parry Shield	200	0
+weapons	0x24B33	Dark Heater Shield+3	Parry Shield	200	0
+weapons	0x24B34	Dark Heater Shield+4	Parry Shield	200	0
+weapons	0x24B35	Dark Heater Shield+5	Parry Shield	200	0
+weapons	0x24B80	Adjudicator's Shield	Bash Shield	150	0
+weapons	0x24B81	Adjudicator's Shield+1	Bash Shield	150	0
+weapons	0x24B82	Adjudicator's Shield+2	Bash Shield	150	0
+weapons	0x24B83	Adjudicator's Shield+3	Bash Shield	150	0
+weapons	0x24B84	Adjudicator's Shield+4	Bash Shield	150	0
+weapons	0x24B85	Adjudicator's Shield+5	Bash Shield	150	0
+weapons	0x24B8B	0o0X0OAdjudicator's Shield+1	Experimental		1
+weapons	0x24B8C	0o0X0OAdjudicator's Shield+2	Experimental		1
+weapons	0x24B8D	0o0X0OAdjudicator's Shield+3	Experimental		1
+weapons	0x24B8E	0o0X0OAdjudicator's Shield+4	Experimental		1
+weapons	0x24B8F	0o0X0OAdjudicator's Shield+5	Experimental		1
+weapons	0x24BE4	Spiked Shield	Parry Shield	120	0
+weapons	0x24BE5	Spiked Shield+1	Parry Shield	120	0
+weapons	0x24BE6	Spiked Shield+2	Parry Shield	120	0
+weapons	0x24BE7	Spiked Shield+3	Parry Shield	120	0
+weapons	0x24BE8	Spiked Shield+4	Parry Shield	120	0
+weapons	0x24BE9	Spiked Shield+5	Parry Shield	120	0
+weapons	0x24BEA	Spiked Shield+6	Parry Shield	120	0
+weapons	0x24BEB	Spiked Shield+7	Parry Shield	120	0
+weapons	0x24BEC	Spiked Shield+8	Parry Shield	120	0
+weapons	0x24BED	Spiked Shield+9	Parry Shield	120	0
+weapons	0x24BEE	Spiked Shield+10	Parry Shield	120	0
+weapons	0x24BEF	0o0X0OSpiked Shield+1	Experimental		1
+weapons	0x24BF0	0o0X0OSpiked Shield+2	Experimental		1
+weapons	0x24BF1	0o0X0OSpiked Shield+3	Experimental		1
+weapons	0x24BF2	0o0X0OSpiked Shield+4	Experimental		1
+weapons	0x24BF3	0o0X0OSpiked Shield+5	Experimental		1
+weapons	0x24BF9	Sharp Spiked Shield+1	Parry Shield	120	0
+weapons	0x24BFA	Sharp Spiked Shield+2	Parry Shield	120	0
+weapons	0x24BFB	Sharp Spiked Shield+3	Parry Shield	120	0
+weapons	0x24BFC	Sharp Spiked Shield+4	Parry Shield	120	0
+weapons	0x24BFD	Sharp Spiked Shield+5	Parry Shield	120	0
+weapons	0x24C48	Tower Shield	Bash Shield	600	0
+weapons	0x24C49	Tower Shield+1	Bash Shield	600	0
+weapons	0x24C4A	Tower Shield+2	Bash Shield	600	0
+weapons	0x24C4B	Tower Shield+3	Bash Shield	600	0
+weapons	0x24C4C	Tower Shield+4	Bash Shield	600	0
+weapons	0x24C4D	Tower Shield+5	Bash Shield	600	0
+weapons	0x24CAC	Dark Silver Shield	Bash Shield	450	0
+weapons	0x24CAD	Dark Silver Shield+1	Bash Shield	450	0
+weapons	0x24CAE	Dark Silver Shield+2	Bash Shield	450	0
+weapons	0x24CAF	Dark Silver Shield+3	Bash Shield	450	0
+weapons	0x24CB0	Dark Silver Shield+4	Bash Shield	450	0
+weapons	0x24CB1	Dark Silver Shield+5	Bash Shield	450	0
+weapons	0x24D10	Soldier's Shield	Parry Shield	190	0
+weapons	0x24D11	Soldier's Shield+1	Parry Shield	190	0
+weapons	0x24D12	Soldier's Shield+2	Parry Shield	190	0
+weapons	0x24D13	Soldier's Shield+3	Parry Shield	190	0
+weapons	0x24D14	Soldier's Shield+4	Parry Shield	190	0
+weapons	0x24D15	Soldier's Shield+5	Parry Shield	190	0
+weapons	0x24D16	Soldier's Shield+6	Parry Shield	190	0
+weapons	0x24D17	Soldier's Shield+7	Parry Shield	190	0
+weapons	0x24D18	Soldier's Shield+8	Parry Shield	190	0
+weapons	0x24D19	Soldier's Shield+9	Parry Shield	190	0
+weapons	0x24D1A	Soldier's Shield+10	Parry Shield	190	0
+weapons	0x24D25	Dark Soldier's Shield+1	Parry Shield	190	0
+weapons	0x24D26	Dark Soldier's Shield+2	Parry Shield	190	0
+weapons	0x24D27	Dark Soldier's Shield+3	Parry Shield	190	0
+weapons	0x24D28	Dark Soldier's Shield+4	Parry Shield	190	0
+weapons	0x24D29	Dark Soldier's Shield+5	Parry Shield	190	0
+weapons	0x24D74	Knight's Shield	Parry Shield	300	0
+weapons	0x24D75	Knight's Shield+1	Parry Shield	300	0
+weapons	0x24D76	Knight's Shield+2	Parry Shield	300	0
+weapons	0x24D77	Knight's Shield+3	Parry Shield	300	0
+weapons	0x24D78	Knight's Shield+4	Parry Shield	300	0
+weapons	0x24D79	Knight's Shield+5	Parry Shield	300	0
+weapons	0x24D7A	Knight's Shield+6	Parry Shield	300	0
+weapons	0x24D7B	Knight's Shield+7	Parry Shield	300	0
+weapons	0x24D7C	Knight's Shield+8	Parry Shield	300	0
+weapons	0x24D7D	Knight's Shield+9	Parry Shield	300	0
+weapons	0x24D7E	Knight's Shield+10	Parry Shield	300	0
+weapons	0x24D7F	0o0X0OKnight's Shield+1	Experimental		1
+weapons	0x24D80	0o0X0OKnight's Shield+2	Experimental		1
+weapons	0x24D81	0o0X0OKnight's Shield+3	Experimental		1
+weapons	0x24D82	0o0X0OKnight's Shield+4	Experimental		1
+weapons	0x24D83	0o0X0OKnight's Shield+5	Experimental		1
+weapons	0x24D89	Dark Knight's Shield+1	Parry Shield	300	0
+weapons	0x24D8A	Dark Knight's Shield+2	Parry Shield	300	0
+weapons	0x24D8B	Dark Knight's Shield+3	Parry Shield	300	0
+weapons	0x24D8C	Dark Knight's Shield+4	Parry Shield	300	0
+weapons	0x24D8D	Dark Knight's Shield+5	Parry Shield	300	0
+weapons	0x24DD8	Slave's Shield	Parry Shield	33	0
+weapons	0x24E3C	Rune Shield	Parry Shield	80	0
+weapons	0x24E3D	Rune Shield+1	Parry Shield	80	0
+weapons	0x24E3E	Rune Shield+2	Parry Shield	80	0
+weapons	0x24E3F	Rune Shield+3	Parry Shield	80	0
+weapons	0x24E40	Rune Shield+4	Parry Shield	80	0
+weapons	0x24E41	Rune Shield+5	Parry Shield	80	0
+weapons	0x24EA0	Large Brushwood Shield	Bash Shield	600	0
+weapons	0x24EA1	Large Brushwood Shield+1	Bash Shield	600	0
+weapons	0x24EA2	Large Brushwood Shield+2	Bash Shield	600	0
+weapons	0x24EA3	Large Brushwood Shield+3	Bash Shield	600	0
+weapons	0x24EA4	Large Brushwood Shield+4	Bash Shield	600	0
+weapons	0x24EA5	Large Brushwood Shield+5	Bash Shield	600	0
+weapons	0x24F04	Steel Shield	Bash Shield	300	0
+weapons	0x24F05	Steel Shield+1	Bash Shield	300	0
+weapons	0x24F06	Steel Shield+2	Bash Shield	300	0
+weapons	0x24F07	Steel Shield+3	Bash Shield	300	0
+weapons	0x24F08	Steel Shield+4	Bash Shield	300	0
+weapons	0x24F09	Steel Shield+5	Bash Shield	300	0
+weapons	0x24F0A	Steel Shield+6	Bash Shield	300	0
+weapons	0x24F0B	Steel Shield+7	Bash Shield	300	0
+weapons	0x24F0C	Steel Shield+8	Bash Shield	300	0
+weapons	0x24F0D	Steel Shield+9	Bash Shield	300	0
+weapons	0x24F0E	Steel Shield+10	Bash Shield	300	0
+weapons	0x24F19	Dark Steel Shield+1	Bash Shield	300	0
+weapons	0x24F1A	Dark Steel Shield+2	Bash Shield	300	0
+weapons	0x24F1B	Dark Steel Shield+3	Bash Shield	300	0
+weapons	0x24F1C	Dark Steel Shield+4	Bash Shield	300	0
+weapons	0x24F1D	Dark Steel Shield+5	Bash Shield	300	0
+weapons	0x24F68	Purple Flame Shield	Bash Shield	170	0
+weapons	0x24F69	Purple Flame Shield+1	Bash Shield	170	0
+weapons	0x24F6A	Purple Flame Shield+2	Bash Shield	170	0
+weapons	0x24F6B	Purple Flame Shield+3	Bash Shield	170	0
+weapons	0x24F6C	Purple Flame Shield+4	Bash Shield	170	0
+weapons	0x24F6D	Purple Flame Shield+5	Bash Shield	170	0
+weapons	0x24F6E	Purple Flame Shield+6	Bash Shield	170	0
+weapons	0x24F6F	Purple Flame Shield+7	Bash Shield	170	0
+weapons	0x24F70	Purple Flame Shield+8	Bash Shield	170	0
+weapons	0x24F71	Purple Flame Shield+9	Bash Shield	170	0
+weapons	0x24F72	Purple Flame Shield+10	Bash Shield	170	0
+weapons	0x24F7D	Dark Purple Flame Shield+1	Bash Shield	170	0
+weapons	0x24F7E	Dark Purple Flame Shield+2	Bash Shield	170	0
+weapons	0x24F7F	Dark Purple Flame Shield+3	Bash Shield	170	0
+weapons	0x24F80	Dark Purple Flame Shield+4	Bash Shield	170	0
+weapons	0x24F81	Dark Purple Flame Shield+5	Bash Shield	170	0
+weapons	0x24FCC	Leather Shield	Parry Shield	160	0
+weapons	0x26D18	_?_?v?    (Ghost Shield)	Experimental		1
+weapons	0x27100	Arrow	Arrow		0
+weapons	0x27164	Heavy Arrow	Arrow		0
+weapons	0x271C8	Light Arrow	Arrow		0
+weapons	0x2722C	0?0?0?0?0?0?0?    (Nothing loads)	Experimental		1
+weapons	0x27290	Fire Arrow	Arrow		0
+weapons	0x272F4	Rotten Arrow	Arrow		0
+weapons	0x27358	Holy Arrow	Arrow		0
+weapons	0x273BC	White Arrow	Arrow		0
+weapons	0x27420	Wooden Arrow	Arrow		0
+weapons	0x29428	_?_?w?{R    (Ghost Quiver)	Experimental		1
+weapons	0x29810	Bolt	Bolt		0
+weapons	0x29874	Heavy Bolt	Bolt		0
+weapons	0x298D8	Black Bolt	Bolt		0
+weapons	0x2993C	Wooden Bolt	Bolt		0
+armor	0x186A0	Gold Mask	Head	150	0
+armor	0x18704	Silver Coronet	Head	100	0
+armor	0x18768	Assassin's Mask	Head	300	0
+armor	0x187CC	Leather Cap	Head	400	0
+armor	0x18830	Chain Helmet	Head	300	0
+armor	0x18894	Mirdan Helmet	Head	200	0
+armor	0x188F8	Plate Helmet	Head	300	0
+armor	0x1895C	Fluted Helmet	Head	250	0
+armor	0x189C0	Brushwood Helmet	Head	600	0
+armor	0x18A24	Dark Silver Helmet	Head	550	0
+armor	0x18A88	Gloom Helmet	Head	450	0
+armor	0x18AEC	Ancient King's Mask	Head	800	0
+armor	0x18C18	Venerable Sage's Hood	Head	500	0
+armor	0x18D44	Bare Head	Head		0
+armor	0x18DA8	Official's Cap	Head	50	0
+armor	0x18E0C	Dull Gold Helmet	Head	550	0
+armor	0x18E70	Binded Hood	Head	300	0
+armor	0x18ED4	Three-Cornered Hat	Head	300	0
+armor	0x2BF20	Monk's Head Wrappings	Head	0	0
+armor	0x2E630	Roaming Wizard (Cap)	Head		0
+armor	0x2E694	Roaming Hunter (Cap)	Head		0
+armor	0x2E6F8	Roaming Cleric (Cap)	Head		0
+armor	0x2E75C	Roaming Warrior (Cap)	Head		0
+armor	0x30D40	Shaman's Clothes	Chest	300	0
+armor	0x30DA4	Wizard's Clothes	Chest	350	0
+armor	0x30E08	Black Leather	Chest	350	0
+armor	0x30E6C	Leather Armor	Chest	400	0
+armor	0x30ED0	Chain Mail	Chest	300	0
+armor	0x30F34	Mirdan Scale Mail	Chest	200	0
+armor	0x30F98	Coat of Plate	Chest	300	0
+armor	0x30FFC	Fluted Armor	Chest	250	0
+armor	0x31060	Brushwood Armor	Chest	600	0
+armor	0x310C4	Dark Silver Armor	Chest	550	0
+armor	0x31128	Gloom Armor	Chest	450	0
+armor	0x3118C	Ancient King's Breastplate	Chest	800	0
+armor	0x311F0	Saint's Robe	Chest	450	0
+armor	0x312B8	Venerable Sage's Robe	Chest	500	0
+armor	0x313E4	Bare Chest	Chest		0
+armor	0x31448	Rogue's Clothes	Chest	150	0
+armor	0x314AC	Dull Gold Armor	Chest	550	0
+armor	0x31510	Binded Cross	Chest	300	0
+armor	0x31574	Old Ragged Robes	Chest	300	0
+armor	0x46CD0	Roaming Wizard (Chest)	Chest		0
+armor	0x46D34	Roaming Hunter (Chest)	Chest		0
+armor	0x46D98	Roaming Cleric (Chest)	Chest		0
+armor	0x46DFC	Roaming Warrior (Chest)	Chest		0
+armor	0x493E0	Shaman's Armbands	Arms	300	0
+armor	0x49444	Wizard's Gloves	Arms	350	0
+armor	0x494A8	Black Gloves	Arms	300	0
+armor	0x4950C	Leather Gloves	Arms	400	0
+armor	0x49570	Chain Gloves	Arms	300	0
+armor	0x495D4	Mirdan Gauntlets	Arms	200	0
+armor	0x49638	Plate Gauntlets	Arms	300	0
+armor	0x4969C	Fluted Gauntlets	Arms	250	0
+armor	0x49700	Brushwood Gauntlets	Arms	600	0
+armor	0x49764	Dark Silver Gauntlets	Arms	550	0
+armor	0x497C8	Gloom Gauntlets	Arms	450	0
+armor	0x4982C	Ancient King's Gauntlets	Arms	800	0
+armor	0x49890	Saint's Gloves	Arms	450	0
+armor	0x49958	Venerable Sage's Gloves	Arms	500	0
+armor	0x499BC	Bare Hands	Arms		0
+armor	0x49A84	Silver Bracelets	Arms	100	0
+armor	0x49AE8	Rogue's Gloves	Arms	150	0
+armor	0x49B4C	Dull Gold Gauntlets	Arms	550	0
+armor	0x49BB0	Binded Gloves	Arms	300	0
+armor	0x49C14	Old Ragged Gloves	Arms	300	0
+armor	0x5F370	Roaming Wizard (Gloves)	Arms		0
+armor	0x5F3D4	Roaming Hunter (Gloves)	Arms		0
+armor	0x5F438	Roaming Cleric (Gloves)	Arms		0
+armor	0x5F49C	Roaming Warrior (Gloves)	Arms		0
+armor	0x61A80	Shaman's Tabi	Legs	300	0
+armor	0x61AE4	Wizard's Shoes	Legs	350	0
+armor	0x61B48	Black Boots	Legs	350	0
+armor	0x61BAC	Leather Boots	Legs	450	0
+armor	0x61C10	Hard Leather Boots	Legs	300	0
+armor	0x61C74	Mirdan Leggings	Legs	200	0
+armor	0x61CD8	Plate Leggings	Legs	300	0
+armor	0x61D3C	Fluted Leggings	Legs	250	0
+armor	0x61DA0	Brushwood Leggings	Legs	600	0
+armor	0x61E04	Dark Silver Leggings	Legs	550	0
+armor	0x61E68	Gloom Leggings	Legs	450	0
+armor	0x61ECC	Ancient King's Leggings	Legs	800	0
+armor	0x61F30	Saint's Boots	Legs	450	0
+armor	0x61FF8	Venerable Sage's Boots	Legs	500	0
+armor	0x6205C	Bare Legs	Legs		0
+armor	0x62188	Rogue's Boots	Legs	150	0
+armor	0x621EC	Dull Gold Leggings	Legs	550	0
+armor	0x62250	Binded Boots	Legs	300	0
+armor	0x622B4	Old Ragged Boots	Legs	300	0
+armor	0x77A10	Roaming Wizard (Leggings)	Legs		0
+armor	0x77A74	Roaming Hunter (Leggings)	Legs		0
+armor	0x77AD8	Roaming Cleric (Leggings)	Legs		0
+armor	0x77B3C	Roaming Warrior (Leggings)	Legs		0
+rings	0x64	Ring of Great Strength	Ring		0
+rings	0x65	Ring of Herculean Strength	Ring		0
+rings	0x66	Clever Rat's Ring	Ring		0
+rings	0x67	Dull Rat's Ring	Ring		0
+rings	0x68	Eternal Warrior's Ring	Ring		0
+rings	0x69	Fragrant Ring	Ring		0
+rings	0x6A	Regenerator's Ring	Ring		0
+rings	0x6B	Ring of Flame Resistance	Ring		0
+rings	0x6C	Ring of Poison Resistance	Ring		0
+rings	0x6D	Ring of Magical Sharpness	Ring		0
+rings	0x6E	Ring of Magical Dullness	Ring		0
+rings	0x6F	Ring of Magical Nature	Ring		0
+rings	0x70	Ring of Sincere Prayer	Ring		0
+rings	0x71	Cling Ring	Ring		0
+rings	0x72	Friend's Ring	Ring		0
+rings	0x73	Foe's Ring	Ring		0
+rings	0x74	Thief's Ring	Ring		0
+rings	0x75	Graverobber's Ring	Ring		0
+rings	0x76	Cat's Ring	Ring		0
+rings	0x77	Ring of the Accursed	Ring		0
+rings	0x78	Ring of Avarice	Ring		0
+rings	0x79	Ronin's Ring	Ring		0
+rings	0x7A	(Nothing?)	Ring		0
+rings	0x7B	Master's Ring	Ring		0
+rings	0x7C	Ring of Devout Prayer	Ring		0
+rings	0x7D	Ring of Gash Resistance	Ring		0
+rings	0x7E	Ring of Disease Resistance	Ring		0
+goods	0x6	Execution Grounds Key (Inactive)	Special		0
+goods	0x7	False King's Demon's Soul	Demon's Souls		0
+goods	0x8	Iron Ring of Keys	Key		0
+goods	0x9	Copper Key	Key		0
+goods	0xA	Prison of Hope, 1F Key	Key		0
+goods	0xB	Prison of Hope, 2F Key	Key		0
+goods	0xC	Prison of Hope, 3F Key	Key		0
+goods	0xD	Prison of Hope, 4F Key	Key		0
+goods	0xE	Prison of Hope, Warden's Key	Key		0
+goods	0xF	Lead Demon's Soul	Demon's Souls		0
+goods	0x10	Iron Demon's Soul	Demon's Souls		0
+goods	0x11	Silver Demon's Soul	Demon's Souls		0
+goods	0x12	Swollen Demon's Soul	Demon's Souls		0
+goods	0x13	Hero Demon's Soul	Demon's Souls		0
+goods	0x14	Storm Demon's Soul	Demon's Souls		0
+goods	0x15	Doll Demon's Soul	Demon's Souls		0
+goods	0x16	Mixed Demon's Soul	Demon's Souls		0
+goods	0x17	Yellow Demon's Soul	Demon's Souls		0
+goods	0x18	Wriggling Demon's Soul	Demon's Souls		0
+goods	0x19	Eroded Demon's Soul	Demon's Souls		0
+goods	0x1A	Pureblood Demon's Soul	Demon's Souls		0
+goods	0x1B	Hard Demon's Soul	Demon's Souls		0
+goods	0x1C	Red Hot Demon's Soul	Demon's Souls		0
+goods	0x1D	Dragon Demon's Soul	Demon's Souls		0
+goods	0x1E	Maiden in Black's Demon's Soul	Demon's Souls		0
+goods	0x1F	Grey Demon's Soul	Demon's Souls		0
+goods	0x20	Small Flame Scale Demon's Soul	Demon's Souls		0
+goods	0x21	Large Flame Scale Demon's Soul	Demon's Souls		0
+goods	0x22	Colorless Demon's Soul	Demon's Souls		0
+goods	0x23	Mausoleum Key	Key		0
+goods	0x24	Bloody Iron Key	Key		0
+goods	0x25	Crest of Vinland	Special		0
+goods	0x26	Jade Hair Ornament	Special		0
+goods	0x27	Prison of Hope, 1F Cell Key	Key		0
+goods	0x28	Prison of Hope, 2F W. Cell Key	Key		0
+goods	0x29	Prison of Hope, 3F Cell Key	Key		0
+goods	0x2A	Prison of Hope, 4F Cell Key	Key		0
+goods	0x2B	Prison of Hope, 2F E. Cell Key	Key		0
+goods	0x2C	Prison of Hope, Special Key	Key		0
+goods	0x2D	Beast's Demon's Soul	Demon's Souls		0
+goods	0x63	Augite of Souls	Key		0
+goods	0x3E8	Crescent Moon Grass	Health Restoration		0
+goods	0x3E9	Half Moon Grass	Health Restoration		0
+goods	0x3EA	Late Moon Grass	Health Restoration		0
+goods	0x3EB	Full Moon Grass	Health Restoration		0
+goods	0x3EC	New Moon Grass	Health Restoration		0
+goods	0x3ED	Fresh Spice	Magic Restoration		0
+goods	0x3EE	Old Spice	Magic Restoration		0
+goods	0x3EF	Royal Lotus	Status Ailment Cure		0
+goods	0x3F0	Widow's Lotus	Status Ailment Cure		0
+goods	0x3F1	Dark Moon Grass	Health Restoration		0
+goods	0x3F2	Ed's Grindstone	Other		0
+goods	0x3F3	Throwing Knife	Projectile Weapon		0
+goods	0x3F4	Kunai	Projectile Weapon		0
+goods	0x3F5	Firebomb	Projectile Weapon		0
+goods	0x3F6	Soul Remains	Other		0
+goods	0x3F7	Turpentine	Weapon Buff		0
+goods	0x3F8	Black Turpentine	Weapon Buff		0
+goods	0x3F9	Sticky White Stuff	Weapon Buff		0
+goods	0x3FA	Brass Telescope	Special		0
+goods	0x3FC	Shard of Archstone	Other		0
+goods	0x3FD	Stone of Ephemeral Eyes	Other		0
+goods	0x3FE	Augite of Guidance	Other		0
+goods	0x3FF	Soldier's Lotus	Status Ailment Cure		0
+goods	0x400	Secret Throwing Dagger	Projectile Weapon		0
+goods	0x401	Unknown Soldier's Soul	Souls		0
+goods	0x402	Unknown Hero's Soul	Souls		0
+goods	0x403	Renowned Soldier's Soul	Souls		0
+goods	0x404	Renowned Hero's Soul	Souls		0
+goods	0x405	Storied Soldier's Soul	Souls		0
+goods	0x406	Storied Hero's Soul	Souls		0
+goods	0x407	Legendary Soldier's Soul	Souls		0
+goods	0x408	Legendary Hero's Soul	Souls		0
+goods	0x409	Nexial Binding	Special		0
+goods	0x7D0	Shard of Hardstone	Ore		0
+goods	0x7D1	Large Hardstone Shard	Ore		0
+goods	0x7D2	Chunk of Hardstone	Ore		0
+goods	0x7D3	Pure Hardstone	Ore		0
+goods	0x7D4	Shard of Sharpstone	Ore		0
+goods	0x7D5	Large Sharpstone Shard	Ore		0
+goods	0x7D6	Chunk of Sharpstone	Ore		0
+goods	0x7D7	Pure Sharpstone	Ore		0
+goods	0x7DC	Shard of Clearstone	Ore		0
+goods	0x7DD	Chunk of Clearstone	Ore		0
+goods	0x7DE	Pure Clearstone	Ore		0
+goods	0x7DF	Shard of Greystone	Ore		0
+goods	0x7E0	Chunk of Greystone	Ore		0
+goods	0x7E1	Pure Greystone	Ore		0
+goods	0x7E5	Shard of Bladestone	Ore		0
+goods	0x7E6	Chunk of Bladestone	Ore		0
+goods	0x7E7	Pure Bladestone	Ore		0
+goods	0x7E8	Shard of Spiderstone	Ore		0
+goods	0x7E9	Chunk of Spiderstone	Ore		0
+goods	0x7EA	Pure Spiderstone	Ore		0
+goods	0x7EB	Shard of Mercurystone	Ore		0
+goods	0x7EC	Chunk of Mercurystone	Ore		0
+goods	0x7ED	Pure Mercurystone	Ore		0
+goods	0x7EE	Shard of Dragonstone	Ore		0
+goods	0x7EF	Chunk of Dragonstone	Ore		0
+goods	0x7F0	Pure Dragonstone	Ore		0
+goods	0x7F1	Shard of Suckerstone	Ore		0
+goods	0x7F2	Chunk of Suckerstone	Ore		0
+goods	0x7F3	Pure Suckerstone	Ore		0
+goods	0x7F4	Shard of Marrowstone	Ore		0
+goods	0x7F5	Chunk of Marrowstone	Ore		0
+goods	0x7F6	Pure Marrowstone	Ore		0
+goods	0x7F7	Shard of Moonlightstone	Ore		0
+goods	0x7F8	Chunk of Moonlightstone	Ore		0
+goods	0x7F9	Pure Moonlightstone	Ore		0
+goods	0x7FA	Shard of Darkmoonstone	Ore		0
+goods	0x7FB	Chunk of Darkmoonstone	Ore		0
+goods	0x7FC	Pure Darkmoonstone	Ore		0
+goods	0x7FD	Shard of Faintstone	Ore		0
+goods	0x7FE	Chunk of Faintstone	Ore		0
+goods	0x7FF	Pure Faintstone	Ore		0
+goods	0x800	Shard of Cloudstone	Ore		0
+goods	0x801	Chunk of Cloudstone	Ore		0
+goods	0x802	Pure Cloudstone	Ore		0
+goods	0x806	Shard of Meltstone	Ore		0
+goods	0x807	Large Clearstone Shard	Ore		0
+goods	0x808	Large Greystone Shard	Ore		0
+goods	0x809	Large Bladestone Shard	Ore		0
+goods	0x270B	Black Eye Stone	Eye Stone		0
+goods	0x270C	Red Eye Stone	Eye Stone		0
+goods	0x270D	Blue Eye Stone	Eye Stone		0
+goods	0x270E	Kick Item	Eye Stone		0
+goods	0x270F	White Eye Stone	Eye Stone		0

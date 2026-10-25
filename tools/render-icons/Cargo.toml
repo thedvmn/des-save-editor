@@ -1,0 +1,12 @@
+[package]
+name = "render-icons"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+# Standalone helper, not part of the app build.
+[workspace]
+
+[dependencies]
+resvg = "0.45.1"
+ico = "0.4"

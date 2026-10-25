@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Demon's Souls Save Editor
+Comment=Edit Demon's Souls (PS3) saves for the RPCS3 emulator
+Exec=des-save-editor
+Icon=des-save-editor
+Categories=Utility;Game;
+Terminal=false
+StartupWMClass=des-save-editor
