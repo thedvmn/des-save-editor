@@ -1,6 +1,6 @@
 [package]
 name = "des-save-editor"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Save editor for Demon's Souls (PS3) saves used by the RPCS3 emulator"
 license = "MIT"
