@@ -1,7 +1,8 @@
 //! The character's inventory in `USER.DAT`.
 //!
 //! ```text
-//! 0x2D4    u32  number of occupied records (mirrored at 0x10360)
+//! 0x2D4    u32  number of occupied records
+//! 0x10360  u32  mirror of the count; the game doesn't always keep it equal
 //! 0x2DC    2048 records of 0x20 bytes:
 //!   +0x00  u32  category type code (0xFFFFFFFF = empty slot)
 //!   +0x04  u32  item ID
@@ -154,6 +155,7 @@ pub fn read(bytes: &[u8]) -> Result<Vec<InventoryItem>, UserDatError> {
 /// Writes `items` in place: existing items are updated in their own slots,
 /// removed ones are cleared and new ones go into the first free slots.
 pub fn write(items: &[InventoryItem], bytes: &mut [u8]) -> Result<(), UserDatError> {
+    let occupied_before = occupied_slots(bytes).count() as u32;
     let kept: Vec<usize> = items
         .iter()
         .filter_map(|i| i.slot.map(usize::from))
@@ -209,7 +211,11 @@ pub fn write(items: &[InventoryItem], bytes: &mut [u8]) -> Result<(), UserDatErr
     }
 
     write_u32(bytes, COUNT, items.len() as u32);
-    write_u32(bytes, COUNT_MIRROR, items.len() as u32);
+    // Shift the mirror by the change rather than overwriting it, since saves
+    // from the game can have it off by one.
+    let mirror =
+        (read_u32(bytes, COUNT_MIRROR) + items.len() as u32).saturating_sub(occupied_before);
+    write_u32(bytes, COUNT_MIRROR, mirror);
     Ok(())
 }
 

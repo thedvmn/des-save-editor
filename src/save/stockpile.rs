@@ -8,13 +8,17 @@
 //!   +0x08  u32  hi16 = sort ID (same as the inventory's), lo16 = order index
 //!   +0x0C  u8   count, low 8 bits
 //!   +0x0D  u8   bits 6-7 = count bits 8-9, bits 0-5 = flag (0x21 when occupied)
-//!   +0x0E  4 bytes, zero
+//!   +0x0E  4 bytes, usually zero (preserved)
 //!   +0x12  u16  durability
-//! 0x1EBEC  u32  number of occupied entries
+//! 0x1EBEC  u32  item count, roughly the number of occupied entries
 //! ```
 //!
 //! The game leaves gaps between entries, so like the inventory this is
 //! edited in place rather than rebuilt.
+//!
+//! The count at 0x1EBEC is not exact: saves written by the game can have it
+//! above the number of occupied entries (e.g. 109 vs 105), so it isn't used
+//! for validation and edits only shift it by the change in entries.
 
 use super::items::{self, ItemCategory, ItemDef};
 use super::user_dat::{UserDatError, read_u32, write_u32};
@@ -94,13 +98,6 @@ pub fn read(bytes: &[u8]) -> Result<Vec<StockpileItem>, UserDatError> {
         });
     }
 
-    let stored = read_u32(bytes, COUNT) as usize;
-    if stored != items.len() {
-        return Err(UserDatError::CorruptStockpile(format!(
-            "item count is {stored} but {} slots are occupied",
-            items.len()
-        )));
-    }
     Ok(items)
 }
 
@@ -116,13 +113,13 @@ fn write_entry(bytes: &mut [u8], slot: usize, item: &StockpileItem, sort_order: 
     write_u32(bytes, e + 8, sort_order);
     bytes[e + 0x0C] = count as u8;
     bytes[e + 0x0D] = ((count >> 8) as u8) << 6 | OCCUPIED_FLAG;
-    bytes[e + 0x0E..e + 0x12].fill(0);
     bytes[e + 0x12..e + 0x14].copy_from_slice(&(item.durability.min(0xFFFF) as u16).to_be_bytes());
 }
 
 /// Writes `items` in place: existing entries are updated in their own slots,
 /// removed ones are cleared and new ones go into the first free slots.
 pub fn write(items: &[StockpileItem], bytes: &mut [u8]) -> Result<(), UserDatError> {
+    let occupied_before = occupied_slots(bytes).count() as u32;
     let kept: Vec<usize> = items
         .iter()
         .filter_map(|i| i.slot.map(usize::from))
@@ -143,13 +140,15 @@ pub fn write(items: &[StockpileItem], bytes: &mut [u8]) -> Result<(), UserDatErr
             Some(s) => write_entry(bytes, usize::from(s), item, item.sort_order),
             None => {
                 let s = free.next().ok_or(UserDatError::StockpileFull)?;
+                bytes[entry(s) + 0x0E..entry(s) + 0x12].fill(0);
                 // New entries use their slot as the order index.
                 write_entry(bytes, s, item, (item.sort_order & 0xFFFF_0000) | s as u32);
             }
         }
     }
 
-    write_u32(bytes, COUNT, items.len() as u32);
+    let count = (read_u32(bytes, COUNT) + items.len() as u32).saturating_sub(occupied_before);
+    write_u32(bytes, COUNT, count);
     Ok(())
 }
 
@@ -232,5 +231,37 @@ mod tests {
         assert_eq!(&b[entry(0)..entry(0) + STRIDE], &EMPTY_ENTRY);
         assert_eq!(read(&b).unwrap(), rest);
         assert_eq!(read_u32(&b, COUNT), 2);
+    }
+
+    #[test]
+    fn inexact_count_is_kept_and_shifted() {
+        let mut b = empty_stockpile();
+        let mut pile = Vec::new();
+        add(
+            &mut pile,
+            items::lookup(ItemCategory::Weapon, 0x2710).unwrap(),
+            1,
+            None,
+        );
+        write(&pile, &mut b).unwrap();
+        // The game can leave the count above the number of occupied entries.
+        write_u32(&mut b, COUNT, 5);
+
+        let mut pile = read(&b).unwrap();
+        assert_eq!(pile.len(), 1);
+        let before = b.clone();
+        write(&pile, &mut b).unwrap();
+        assert_eq!(b, before, "no-op write keeps the stored count");
+
+        add(
+            &mut pile,
+            items::lookup(ItemCategory::Goods, 0x3E8).unwrap(),
+            1,
+            None,
+        );
+        write(&pile, &mut b).unwrap();
+        assert_eq!(read_u32(&b, COUNT), 6);
+        write(&pile[1..], &mut b).unwrap();
+        assert_eq!(read_u32(&b, COUNT), 5);
     }
 }

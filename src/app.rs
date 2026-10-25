@@ -659,45 +659,42 @@ mod tests {
         use crate::save::items::{self, ItemCategory};
         let inv = &mut app.slots[0].edited.inventory;
         let before = inv.len();
-        assert!(
-            inv.iter()
-                .find(|i| i.name() == "Silver Catalyst")
-                .unwrap()
-                .equipped
-        );
-        let talisman = inv
+        assert!(inv.iter().any(|i| i.equipped), "something is equipped");
+        let removed = inv
             .iter()
-            .position(|i| i.name() == "Talisman of God")
+            .position(|i| i.category.has_durability() && !i.equipped)
             .unwrap();
-        let freed_slot = inv[talisman].slot;
-        inv.remove(talisman);
-        inv.iter_mut()
-            .find(|i| i.name() == "Old Spice")
-            .unwrap()
-            .count = 30;
-        inventory::add(inv, items::lookup(ItemCategory::Goods, 0x3E8).unwrap(), 10); // Crescent Moon Grass 64 -> 74
+        let removed_slot = inv.remove(removed).slot;
+        // The dagger goes into the first free record.
+        let free_slot = (0u16..).find(|s| inv.iter().all(|i| i.slot != Some(*s)));
+        let stacks: Vec<usize> = (0..inv.len())
+            .filter(|&i| inv[i].category == ItemCategory::Goods && (2..=89).contains(&inv[i].count))
+            .collect();
+        let (changed, grown) = (stacks[0], stacks[1]);
+        let changed_name = inv[changed].name();
+        let new_count = inv[changed].count - 1;
+        inv[changed].count = new_count;
+        let grown_name = inv[grown].name();
+        let grown_count = inv[grown].count + 10;
+        let grown_def = inv[grown].def().unwrap();
+        inventory::add(inv, grown_def, 10);
         inventory::add(inv, items::lookup(ItemCategory::Weapon, 0x2710).unwrap(), 1); // Dagger
         app.try_save().unwrap();
 
         let inv = &app.slots[0].original.inventory;
+        let find = |name: &str| inv.iter().find(|i| i.name() == name).unwrap();
         assert_eq!(inv.len(), before);
-        assert!(inv.iter().all(|i| i.name() != "Talisman of God"));
-        assert_eq!(
-            inv.iter().find(|i| i.name() == "Old Spice").unwrap().count,
-            30
-        );
-        assert_eq!(
+        assert!(
             inv.iter()
-                .find(|i| i.name() == "Crescent Moon Grass")
-                .unwrap()
-                .count,
-            74
+                .all(|i| i.slot != removed_slot || i.name() == "Dagger")
         );
-        let dagger = inv.iter().find(|i| i.name() == "Dagger").unwrap();
-        assert_eq!(
-            dagger.slot, freed_slot,
-            "new item reuses the first free slot"
-        );
+        assert_eq!(find(&changed_name).count, new_count);
+        assert_eq!(find(&grown_name).count, grown_count);
+        let dagger = inv
+            .iter()
+            .filter(|i| i.name() == "Dagger")
+            .find(|i| i.slot == free_slot)
+            .unwrap();
         assert_eq!(dagger.durability, 200);
 
         // Saving again with no edits changes nothing (the dagger isn't re-added).
@@ -741,77 +738,66 @@ mod tests {
         let original_file = fs::read(save_dir.join("USER.DAT")).unwrap();
 
         let c = &mut app.slots[0].edited;
-        assert_eq!(c.stockpile.len(), 65);
-        let sword = c
-            .stockpile
+        let before = c.stockpile.len();
+        let pile = &mut c.stockpile;
+        let removed = pile
             .iter()
-            .position(|i| i.name() == "Bastard Sword")
+            .position(|i| i.category == ItemCategory::Weapon)
             .unwrap();
-        let sword_slot = c.stockpile[sword].slot;
-        c.stockpile.remove(sword);
-        c.stockpile
-            .iter_mut()
-            .find(|i| i.name() == "Scimitar")
-            .unwrap()
-            .durability = 60;
-        c.stockpile
-            .iter_mut()
-            .find(|i| i.name() == "Shard of Sharpstone")
-            .unwrap()
-            .count = 40;
+        let removed_slot = pile.remove(removed).slot;
+        // The ring goes into the first free entry, which may be an existing gap.
+        let free_slot = (0u16..).find(|s| pile.iter().all(|i| i.slot != Some(*s)));
+        let worn = pile
+            .iter()
+            .position(|i| i.category == ItemCategory::Weapon && i.durability > 1)
+            .unwrap();
+        pile[worn].durability -= 1;
+        let (worn_slot, worn_durability) = (pile[worn].slot, pile[worn].durability);
+        let stack = pile
+            .iter()
+            .position(|i| i.category == ItemCategory::Goods && i.count > 1)
+            .unwrap();
+        pile[stack].count -= 1;
+        let (stack_slot, stack_count) = (pile[stack].slot, pile[stack].count);
         stockpile::add(
-            &mut c.stockpile,
+            pile,
             items::lookup(ItemCategory::Ring, 0x71).unwrap(),
             1,
             None,
         ); // Cling Ring
-        c.inventory
+
+        let weapon = c
+            .inventory
             .iter_mut()
-            .find(|i| i.name() == "Halberd+8")
-            .unwrap()
-            .durability = 100;
+            .find(|i| i.category == ItemCategory::Weapon && i.durability > 1)
+            .unwrap();
+        weapon.durability -= 1;
+        let (weapon_slot, weapon_durability) = (weapon.slot, weapon.durability);
         app.try_save().unwrap();
 
         let c = &app.slots[0].original;
-        assert_eq!(c.stockpile.len(), 65);
-        assert!(c.stockpile.iter().all(|i| i.name() != "Bastard Sword"));
-        assert_eq!(
-            c.stockpile
-                .iter()
-                .find(|i| i.name() == "Scimitar")
-                .unwrap()
-                .durability,
-            60
-        );
-        assert_eq!(
-            c.stockpile
-                .iter()
-                .find(|i| i.name() == "Shard of Sharpstone")
-                .unwrap()
-                .count,
-            40
-        );
-        assert_eq!(
-            c.stockpile
-                .iter()
-                .find(|i| i.name() == "Cling Ring")
-                .unwrap()
-                .slot,
-            sword_slot
-        );
+        let at = |slot| c.stockpile.iter().find(|i| i.slot == slot).unwrap();
+        assert_eq!(c.stockpile.len(), before);
+        assert!(c.stockpile.iter().all(|i| i.slot != removed_slot) || free_slot == removed_slot);
+        assert_eq!(at(worn_slot).durability, worn_durability);
+        assert_eq!(at(stack_slot).count, stack_count);
+        assert_eq!(at(free_slot).name(), "Cling Ring");
         assert_eq!(
             c.inventory
                 .iter()
-                .find(|i| i.name() == "Halberd+8")
+                .find(|i| i.slot == weapon_slot)
                 .unwrap()
                 .durability,
-            100
+            weapon_durability
         );
 
         // Changes stay inside the stockpile entries touched and the durability table.
         let new_file = fs::read(save_dir.join("USER.DAT")).unwrap();
         let entry = |slot: usize| 0x14BE8 + slot * 0x14..0x14BE8 + (slot + 1) * 0x14;
-        let touched = [0usize, 1, 10];
+        let touched: Vec<usize> = [removed_slot, free_slot, worn_slot, stack_slot]
+            .into_iter()
+            .map(|s| usize::from(s.unwrap()))
+            .collect();
         let changed: Vec<usize> = (0..new_file.len())
             .filter(|&i| new_file[i] != original_file[i])
             .collect();
